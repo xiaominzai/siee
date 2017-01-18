@@ -1,0 +1,45 @@
+				<div id="bottom-list">
+				<img src="{IMG_PATH}tubiao5.jpg"><span>二级学院:</span>
+				{pc:link  action="type_list" typeid="53"  siteid="$siteid" order="listorder DESC" num="10" return="dat"}
+                 <select class="select" onchange="top.location.href = this.options[this.selectedIndex].value;" name="select1" target=_blank>
+			          <option selected="selected" value="">--二级学院--</option>
+			         
+					{loop $dat $v}
+			          <option value="{$v[url]}">{$v[name]}</option>
+					{/loop}
+			       </select>
+			    {/pc}
+
+					<img src="{IMG_PATH}tubiao5.jpg" style="margin-left:100px;"><span>职能部门:</span>
+
+				{pc:link  action="type_list" typeid="54"  siteid="$siteid" order="listorder DESC" num="10" return="dat"}
+                 <select class="select" onchange="top.location.href = this.options[this.selectedIndex].value;" name="select1" target=_blank>
+			          <option selected="selected" value="">--职能部门--</option>
+			         
+						{loop $dat $v}
+			          <option value="{$v[url]}">{$v[name]}</option>
+						{/loop}
+
+			       </select>
+			       {/pc}
+
+			       <img src="{IMG_PATH}tubiao5.jpg" style="margin-left:100px"><span>常用链接:</span>
+
+					{pc:link  action="type_list" typeid="55"  siteid="$siteid" order="listorder DESC" num="10" return="dat"}
+		            <select class="select" onchange="location.href = this.options[this.selectedIndex].value;" name="select2">
+					          <option selected="selected" value="">--友情链接--</option>
+					          {loop $dat $v}
+					          <option value="{$v[url]}" target=_blank>{$v[name]}</option>
+					          {/loop}
+					</select>
+					{/pc}
+				</div>
+				<div id="bottom">
+					<span>Copyright © 2016 华南理工大学广州学院创新创业教育学院版权所有</span>
+					<span>技术支持：学生传媒中心前端技术部&nbsp;&nbsp;学校地址:&nbsp;广州市花都区新华街学府路一号&nbsp;&nbsp;&nbsp;联系方式:020-36907036　邮编：510800</span>
+				</div>
+			</div>
+	</div>
+	<script language="JavaScript" src="{APP_PATH}api.php?op=count&id={$id}&modelid={$modelid}"></script> 
+</body>
+</html>

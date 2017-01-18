@@ -1,0 +1,267 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="http://localhost/siee/statics/css/style.css">
+    <script src="http://localhost/siee/statics/js/jquery-1.11.1.min.js"></script>
+    <script src="http://localhost/siee/statics/js/common.js" type="text/javascript"></script>
+    <script src="http://localhost/siee/statics/js/unslider.min.js"></script>
+
+    <link rel="stylesheet" href="http://localhost/siee/statics/css/min.css">
+
+    <script type="text/javascript">
+
+            function detectBrowser()
+            {
+            var browser=navigator.appName
+            var b_version=navigator.appVersion
+            var version=parseFloat(b_version)
+            
+            if ((browser=="Netscape"||browser=="Microsoft Internet Explorer")
+            && (version>=5))
+              {document.getElementById('detectBrowser').style.display="none"}
+            else
+              {document.getElementById('detectBrowser').style.display="block";}
+              }
+    </script>
+    <title>Document</title>
+</head>
+<body onload="detectBrowser()">
+ <div id="detectBrowser" class="center" style="display: none;">您的浏览器版本过低，为了您更好的体验，请更换浏览器</div>
+    <div id="main">
+        <img src="http://localhost/siee/statics/images/erweima.jpg" id="imgfloat">
+        <div id="header">
+            <div class="header-up">
+                <img src="http://localhost/siee/statics/images/headerup.jpg" />
+                <form id="sousuo">
+                    <input type="text" id="sousuo-text" placeholder="关键字搜索">
+                    <input type="submit" id="sousuo-button" value=""/>
+                </from>
+            </div>
+            <!-- 导航栏部分 -->
+            <div id="nav">
+                <ul id="navli">
+                    <li ><a  class="ban" id="one" href="http://localhost/siee/">首页<br><span>HOME</span></a></li>
+                    <li ><a  class="ban" href="#">学院概括<br><span>SUMMARY</span></a>
+                        <ul id="nav1" class="nav">
+                            <li><a href="http://localhost/siee/index.php?m=content&c=index&a=lists&catid=20">学院简介</a></li>
+                            <li><a href="http://localhost/siee/index.php?m=content&c=index&a=lists&catid=21">组织架构</a></li>
+                            <li id="teacher"><a href="#" >双创导师</a>
+                                    <ul id="nav2" class="nav2">
+                                        <li><a href="http://localhost/siee/index.php?m=content&c=index&a=lists&catid=19">校内导师</a></li>
+                                        <li><a href="http://localhost/siee/index.php?m=content&c=index&a=lists&catid=18">校外导师</a></li>
+                                    </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li ><a  class="ban" href="http://localhost/siee/index.php?m=content&c=index&a=lists&catid=10">通知公告<br><span>NOTICE</span></a></li>
+                    <li ><a  class="ban" href="http://localhost/siee/index.php?m=content&c=index&a=lists&catid=11">双创动态<br><span>DYNAMIC</span></a>
+                        <ul id="nav3" class="nav">
+                            <li><a href="http://localhost/siee/index.php?m=content&c=index&a=lists&catid=22">讲座沙龙</a></li>
+                            <li><a href="http://localhost/siee/index.php?m=content&c=index&a=lists&catid=23">创业竞赛</a></li>
+                            <li><a href="http://localhost/siee/index.php?m=content&c=index&a=lists&catid=24" >其他</a></li>
+                        </ul>
+                    </li>
+                    <li ><a  class="ban" href="http://localhost/siee/index.php?m=content&c=index&a=lists&catid=12">政策服务<br><span>SERVISE</span></a></li>
+                    <li ><a  class="ban" href="#">创业基地<br><span>BASE</span></a>
+                        <ul id="nav4" class="nav">
+                            <li><a href="http://localhost/siee/index.php?m=content&c=index&a=lists&catid=25">校外基地</a></li>
+                            <li><a href="http://localhost/siee/index.php?m=content&c=index&a=lists&catid=26">创业园区</a></li>
+                        </ul>
+
+                    </li>
+
+                </ul>
+            </div><!--main-->
+    <!-- 轮播图部分 -->
+    <!-- <div class="header-down">
+            <div class="banner" id="b04">
+                                <ul>
+                                        <li><img src="http://localhost/siee/uploadfile/2016/1215/20161215043237195.jpg" alt="" width="1003px" height="325px" ></li>
+                                        <li><img src="http://localhost/siee/uploadfile/2016/1215/20161215043226786.jpg" alt="" width="1003px" height="325px" ></li>
+                                        <li><img src="http://localhost/siee/uploadfile/2016/1215/20161215043215992.jpg" alt="" width="1003px" height="325px" ></li>
+                                        <li><img src="http://localhost/siee/uploadfile/2016/1215/20161215043206805.jpg" alt="" width="1003px" height="325px" ></li>
+                                        <li><img src="http://localhost/siee/uploadfile/2016/1222/20161222050924592.jpg" alt="" width="1003px" height="325px" ></li>
+                                    </ul>
+                                <a href="javascript:void(0);" class="unslider-arrow04 prev"><img class="arrow" id="al" src="http://localhost/siee/statics/images/arrowl.png" alt="prev" width="20" height="35"></a>
+
+                <a href="javascript:void(0);" class="unslider-arrow04 next"><img class="arrow" id="ar" src="http://localhost/siee/statics/images/arrowr.png" alt="next" width="20" height="37"></a>
+            </div>
+    </div> -->
+    
+    <img src="http://localhost/siee/statics/images/01.jpg" alt="" width="1003px" height="225px" >
+        </div>
+            <div id="content">
+
+                <div class="list-dd" id="sc-dongtai">
+                    <div class="lisdd-header">
+                        <img src="http://localhost/siee/statics/images/tubiao3.jpg">
+                        <span class="con-nav-font">双创动态</span>
+                        <a class="more" href="#"><img src="http://localhost/siee/statics/images/more.jpg"></a>
+
+                    </div>
+                                        <ul class="listdd-down">
+                                                <li>
+                            <img src="http://localhost/siee/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://localhost/siee2/index.php?m=content&c=index&a=show&catid=22&id=91" ><span>在增加试试看</span></a>
+                            <span class="listdd-t">2016-12-21</span>
+                        </li>
+                                                <li>
+                            <img src="http://localhost/siee/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://localhost/siee2/index.php?m=content&c=index&a=show&catid=22&id=90" ><span>在来一条？</span></a>
+                            <span class="listdd-t">2016-12-15</span>
+                        </li>
+                                                <li>
+                            <img src="http://localhost/siee/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://localhost/siee2/index.php?m=content&c=index&a=show&catid=22&id=67" ><span>公告文章</span></a>
+                            <span class="listdd-t">2016-12-15</span>
+                        </li>
+                                                <li>
+                            <img src="http://localhost/siee/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://localhost/siee2/index.php?m=content&c=index&a=show&catid=23&id=68" ><span>公告文章</span></a>
+                            <span class="listdd-t">2016-12-15</span>
+                        </li>
+                                                <li>
+                            <img src="http://localhost/siee/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://localhost/siee2/index.php?m=content&c=index&a=show&catid=24&id=69" ><span>公告文章</span></a>
+                            <span class="listdd-t">2016-12-15</span>
+                        </li>
+                                                <li>
+                            <img src="http://localhost/siee/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://localhost/siee2/index.php?m=content&c=index&a=show&catid=22&id=55" ><span>公告</span></a>
+                            <span class="listdd-t">2016-12-15</span>
+                        </li>
+                                            </ul>
+                    
+                </div>
+                <div class="list-dd" id="tongzhi">
+                    <div class="lisdd-header">
+                        <img src="http://localhost/siee/statics/images/tubiao2.jpg" />
+                        <span class="con-nav-font">通知公告 </span>
+                        <a class="more" href="#"><img src="http://localhost/siee/statics/images/more.jpg"></a>
+                    </div>
+                                        <ul class="listdd-down">
+                                                <li>
+                            <img src="http://localhost/siee/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://localhost/siee2/index.php?m=content&c=index&a=show&catid=10&id=75" ><span>我看看新闻能有多长好长啊好长啊好长啊好长啊好长啊好长</span></a>
+                            <span class="listdd-t">2016-12-15</span>
+                        </li>
+                                                <li>
+                            <img src="http://localhost/siee/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://localhost/siee2/index.php?m=content&c=index&a=show&catid=10&id=63" ><span>公告文章</span></a>
+                            <span class="listdd-t">2016-12-15</span>
+                        </li>
+                                                <li>
+                            <img src="http://localhost/siee/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://localhost/siee2/index.php?m=content&c=index&a=show&catid=10&id=66" ><span>公告文章</span></a>
+                            <span class="listdd-t">2016-12-15</span>
+                        </li>
+                                                <li>
+                            <img src="http://localhost/siee/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://localhost/siee2/index.php?m=content&c=index&a=show&catid=10&id=51" ><span>公告</span></a>
+                            <span class="listdd-t">2016-12-15</span>
+                        </li>
+                                                <li>
+                            <img src="http://localhost/siee/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://localhost/siee2/index.php?m=content&c=index&a=show&catid=10&id=54" ><span>公告</span></a>
+                            <span class="listdd-t">2016-12-15</span>
+                        </li>
+                                                <li>
+                            <img src="http://localhost/siee/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://localhost/siee2/index.php?m=content&c=index&a=show&catid=10&id=42" ><span>新闻</span></a>
+                            <span class="listdd-t">2016-12-15</span>
+                        </li>
+                                            </ul>
+                                    </div>
+
+
+                <div class="list-dd" id="baoming">
+                    <div class="lisdd-header">
+                        <img src="http://localhost/siee/statics/images/tubiao6.jpg" />
+                        <span class="con-nav-font">报名入口 </span>
+                        <a class="more" href="#"><img src="http://localhost/siee/statics/images/more.jpg"></a>
+                    </div>
+                    <div class="listdd-down">
+                        <div  id="sanjiao"/></div>
+                        <div id="baoming-top">
+                            <div class="baoming-top"><img src="http://localhost/siee/statics/images/BMtubiao1.jpg" /></div>
+                            <a class="baoming-bottom" href="http://localhost/siee/index.php?m=formguide&c=index&a=show&formid=15&siteid=1&pc_hash=GcGxwL">双创班报名</a>
+                        </div>
+                        <div id="baoming-left">
+                            <div class="baoming-top"><img src="http://localhost/siee/statics/images/BMtubiao2.jpg" /></div>
+                            <a class="baoming-bottom" href="http://localhost/siee/index.php?m=formguide&c=index&a=show&formid=14&siteid=1&pc_hash=GcGxwL">syb报名</a>
+                        </div>
+                        <div id="baoming-right">
+                            <div class="baoming-top"><img src="http://localhost/siee/statics/images/BMtubiao3.jpg" /></div>
+                            <a class="baoming-bottom" href="http://localhost/siee/index.php?m=formguide&c=index&a=show&formid=13&siteid=1&pc_hash=GcGxwL">训练营报名</a>
+                            <div class="baoming-sm">暂不公开</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-dd" id="zhengce">
+                    <div class="lisdd-header">
+                        <img src="http://localhost/siee/statics/images/tubiao4.jpg" />
+                        <span class="con-nav-font">政策服务 </span>
+                        <a class="more" href="#"><img src="http://localhost/siee/statics/images/more.jpg"></a>
+                    </div>
+                                        <ul class="listdd-down">
+                                                <li>
+                            <img src="http://localhost/siee/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://localhost/siee2/index.php?m=content&c=index&a=show&catid=15&id=74" ><span>公告文章</span></a>
+                            <span class="listdd-t">2016-12-15</span>
+                        </li>
+                                                <li>
+                            <img src="http://localhost/siee/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://localhost/siee2/index.php?m=content&c=index&a=show&catid=15&id=62" ><span>公告</span></a>
+                            <span class="listdd-t">2016-12-15</span>
+                        </li>
+                                                <li>
+                            <img src="http://localhost/siee/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://localhost/siee2/index.php?m=content&c=index&a=show&catid=15&id=50" ><span>新闻</span></a>
+                            <span class="listdd-t">2016-12-15</span>
+                        </li>
+                                                <li>
+                            <img src="http://localhost/siee/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://localhost/siee2/index.php?m=content&c=index&a=show&catid=15&id=36" ><span>这是一条严肃的新闻</span></a>
+                            <span class="listdd-t">2016-12-15</span>
+                        </li>
+                                                <li>
+                            <img src="http://localhost/siee/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://localhost/siee2/index.php?m=content&c=index&a=show&catid=15&id=24" ><span>发布多条</span></a>
+                            <span class="listdd-t">2016-12-15</span>
+                        </li>
+                                                <li>
+                            <img src="http://localhost/siee/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://localhost/siee2/index.php?m=content&c=index&a=show&catid=15&id=12" ><span>校外导师</span></a>
+                            <span class="listdd-t">2016-12-15</span>
+                        </li>
+                                            </ul>
+                                    </div>
+
+                                <ul id="con-img">
+                                        <li><img class="con-imga" src="http://localhost/siee/uploadfile/2016/1215/thumb_246_174_20161215044348806.jpg"></li>
+                                        <li><img class="con-imga" src="http://localhost/siee/uploadfile/2016/1215/20161215043552745.jpg"></li>
+                                        <li><img class="con-imga" src="http://localhost/siee/uploadfile/2016/1215/20161215043541826.jpg"></li>
+                                        <li><img class="con-imga" src="http://localhost/siee/uploadfile/2016/1215/20161215043954136.jpg"></li>
+                                        <li><img class="con-imga" src="http://localhost/siee/uploadfile/2016/1215/20161215043517620.jpg"></li>
+                                        <li><img class="con-imga" src="http://localhost/siee/uploadfile/2016/1215/20161215043503238.jpg"></li>
+                                        <li><img class="con-imga" src="http://localhost/siee/uploadfile/2016/1215/thumb_246_174_20161215044411189.jpg"></li>
+                                        <li><img class="con-imga" src="http://localhost/siee/uploadfile/2016/1215/20161215043441952.jpg"></li>
+                                    </ul>
+                				<div id="bottom-list">
+				<img src="http://localhost/siee/statics/images/tubiao5.jpg"><span>二级学院:</span>
+				                 <select class="select" onchange="top.location.href = this.options[this.selectedIndex].value;" name="select1" target=_blank>
+			          <option selected="selected" value="">--二级学院--</option>
+			         
+								          <option value="http://jg.gcu.edu.cn/mainpage.do">管理学院</option>
+								          <option value="http://www.baidu.com">计算机学院</option>
+								       </select>
+			    
+					<img src="http://localhost/siee/statics/images/tubiao5.jpg" style="margin-left:100px;"><span>职能部门:</span>
+
+				                 <select class="select" onchange="top.location.href = this.options[this.selectedIndex].value;" name="select1" target=_blank>
+			          <option selected="selected" value="">--职能部门--</option>
+			         
+									          <option value="http://jwc.gcu.edu.cn/">教务处</option>
+									          <option value="http://lib.gcu.edu.cn/home/">华广图书馆</option>
+						
+			       </select>
+			       
+			       <img src="http://localhost/siee/statics/images/tubiao5.jpg" style="margin-left:100px"><span>常用链接:</span>
+
+							            <select class="select" onchange="location.href = this.options[this.selectedIndex].value;" name="select2">
+					          <option selected="selected" value="">--友情链接--</option>
+					          					          <option value="http://www.scut.edu.cn/new/" target=_blank>华南理工大学</option>
+					          					</select>
+									</div>
+				<div id="bottom">
+					<span>Copyright © 2016 华南理工大学广州学院创新创业教育学院版权所有</span>
+					<span>技术支持：学生传媒中心前端技术部&nbsp;&nbsp;学校地址:&nbsp;广州市花都区新华街学府路一号&nbsp;&nbsp;&nbsp;联系方式:020-36907036　邮编：510800</span>
+				</div>
+			</div>
+	</div>
+	<script language="JavaScript" src="http://localhost/siee/api.php?op=count&id=&modelid="></script> 
+</body>
+</html>
