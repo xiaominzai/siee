@@ -6,7 +6,8 @@
     <script src="<?php echo JS_PATH;?>jquery-1.11.1.min.js"></script>
     <script src="<?php echo JS_PATH;?>common.js" type="text/javascript"></script>
     <script src="<?php echo JS_PATH;?>unslider.min.js"></script>
-
+    <script src="<?php echo JS_PATH;?>search_common.js"></script>
+    
     <link rel="stylesheet" href="<?php echo CSS_PATH;?>min.css">
 
     <script type="text/javascript">
@@ -33,9 +34,18 @@
         <div id="header">
             <div class="header-up">
                 <img src="<?php echo IMG_PATH;?>headerup.jpg" />
-                <form id="sousuo">
-                    <input type="text" id="sousuo-text" placeholder="关键字搜索">
-                    <input type="submit" id="sousuo-button" value=""/>
+                <form id="sousuo" method="get" target="_blank" action="<?php echo APP_PATH;?>index.php">
+                    <div id="try">
+                        
+                        <input type="hidden" name="m" value="search"/>
+                        <input type="hidden" name="c" value="index"/>
+                        <input type="hidden" name="a" value="init"/>
+                        <input type="hidden" name="typeid" value="1" id="typeid"/>
+                        <input type="hidden" name="siteid" value="<?php echo $siteid;?>" id="siteid"/>
+                        <input type="text" name="q" id="sousuo-text" placeholder="关键字搜索">
+                        <input type="submit" id="sousuo-button" value=""/>
+                        
+                    </div>
                 </from>
             </div>
             <!-- 导航栏部分 -->

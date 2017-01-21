@@ -423,3 +423,166 @@
 <?php exit;?>01-16 17:42:03 | 2 | Illegal string offset 'interval' | phpcms/modules/formguide/index.php | 94
 <?php exit;?>01-18 09:29:58 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
 <?php exit;?>01-18 09:30:24 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-18 21:26:55 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-18 21:28:40 | 2 | Invalid argument supplied for foreach() | phpcms/modules/search/search_type.php | 94
+<?php exit;?>01-18 21:34:33 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-18 21:40:11 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-18 21:40:50 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-18 21:40:53 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-18 21:40:53 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-18 21:40:53 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-18 21:40:53 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-18 21:40:55 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-18 21:40:55 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-18 21:40:55 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-18 21:40:55 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-18 21:40:57 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-18 21:40:57 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-18 21:40:57 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-18 21:40:57 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-18 21:42:36 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-18 21:42:39 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-18 21:42:39 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-18 21:42:39 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-18 21:42:39 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-18 21:42:41 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-18 21:42:41 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-18 21:42:41 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-18 21:42:41 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-18 21:42:43 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-18 21:42:43 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-18 21:42:43 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-18 21:42:43 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-18 21:44:22 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-18 21:44:35 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-18 21:44:36 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-18 21:44:39 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-18 21:44:39 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-18 21:44:39 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-18 21:44:39 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-18 21:44:41 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-18 21:44:41 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-18 21:44:41 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-18 21:44:41 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-18 21:44:43 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-18 21:44:43 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-18 21:44:43 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-18 21:44:43 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-18 21:44:50 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-18 21:52:32 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-18 21:53:38 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-18 21:57:51 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-18 21:57:57 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-18 21:57:57 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-18 21:57:57 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-18 21:57:57 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-18 21:57:59 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-18 21:57:59 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-18 21:57:59 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-18 21:57:59 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-18 21:58:01 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-18 21:58:01 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-18 21:58:01 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-18 21:58:01 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-18 22:04:43 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-18 22:05:10 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-18 22:05:16 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-18 22:05:17 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-18 22:05:33 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-18 22:08:47 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-18 22:08:49 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-18 22:10:18 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-18 22:10:20 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-18 22:11:39 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-18 22:11:45 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-18 22:12:15 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-18 22:13:40 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-18 22:13:46 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-18 22:15:50 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-18 22:15:54 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-18 22:16:08 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 21:35:47 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 21:35:57 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 21:36:02 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 21:36:37 | 2 | Invalid argument supplied for foreach() | phpcms/modules/search/search_admin.php | 85
+<?php exit;?>01-21 21:36:38 | 2 | Invalid argument supplied for foreach() | phpcms/modules/search/search_admin.php | 85
+<?php exit;?>01-21 21:36:52 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 21:36:57 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 21:37:01 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 21:37:59 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 21:38:03 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 21:38:32 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 22:42:45 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 22:42:56 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 22:43:20 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 22:43:34 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 22:43:40 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 22:43:44 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 22:43:49 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 22:44:12 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:08:47 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-21 23:09:16 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:09:36 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-21 23:11:33 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-21 23:11:52 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-21 23:17:52 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-21 23:18:04 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:20:44 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-21 23:20:50 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:21:14 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-21 23:21:31 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-21 23:21:35 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:21:40 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:21:42 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:21:44 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:21:46 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:22:48 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-21 23:22:53 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:22:57 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:23:00 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:23:49 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:23:59 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:24:03 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:24:27 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-21 23:24:32 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:26:33 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:26:58 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:27:23 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:27:31 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-21 23:27:31 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-21 23:27:31 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-21 23:27:31 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-21 23:27:32 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-21 23:27:32 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-21 23:27:32 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-21 23:27:32 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-21 23:27:34 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-21 23:27:34 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-21 23:27:34 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-21 23:27:34 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-21 23:27:44 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:28:21 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:30:15 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:33:58 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:34:02 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:34:07 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:35:11 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:35:46 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:35:53 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:36:11 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:38:40 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:44:08 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:44:23 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:44:34 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:44:53 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:44:55 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:46:12 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:46:14 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:46:39 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:46:55 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:47:09 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:47:24 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:47:43 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:48:01 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:51:09 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-21 23:52:31 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
