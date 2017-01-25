@@ -586,3 +586,27 @@
 <?php exit;?>01-21 23:48:01 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
 <?php exit;?>01-21 23:51:09 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
 <?php exit;?>01-21 23:52:31 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-26 00:10:50 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-26 00:11:15 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-26 00:11:19 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-26 00:11:19 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-26 00:11:19 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-26 00:11:19 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-26 00:11:20 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-26 00:11:20 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-26 00:11:20 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-26 00:11:20 | 2 | chmod(): 不允许的操作    | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-26 00:11:23 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-26 00:11:23 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-26 00:11:23 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-26 00:11:23 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-26 00:21:01 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-26 00:21:02 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-26 00:21:51 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-26 00:22:10 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-26 00:22:27 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-26 00:22:49 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-26 00:23:11 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-26 00:23:28 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-26 00:23:51 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-26 00:24:09 | 2 | chmod(): 不允许的操作    | phpcms/modules/content/classes/html.class.php | 364
