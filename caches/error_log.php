@@ -665,3 +665,4 @@
 <?php exit;?>01-30 22:45:30 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
 <?php exit;?>01-30 22:45:30 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
 <?php exit;?>01-30 22:46:53 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
+<?php exit;?>01-31 14:56:25 | 2 | chmod(): 不允许的操作    | phpcms/libs/classes/template_cache.class.php | 43
