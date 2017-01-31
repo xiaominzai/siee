@@ -666,3 +666,27 @@
 <?php exit;?>01-30 22:45:30 | 2 | chmod(): 不允许的操作    | phpcms/modules/formguide/classes/formguide.class.php | 35
 <?php exit;?>01-30 22:46:53 | 2 | fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) | phpcms/modules/search/classes/sphinxapi.class.php | 585
 <?php exit;?>01-31 14:56:25 | 2 | chmod(): 不允许的操作    | phpcms/libs/classes/template_cache.class.php | 43
+<?php exit;?>01-31 15:46:45 | 2 | chmod(): Operation not permitted | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-31 15:46:54 | 2 | chmod(): Operation not permitted | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-31 15:46:54 | 2 | chmod(): Operation not permitted | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-31 15:46:54 | 2 | chmod(): Operation not permitted | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-31 15:46:54 | 2 | chmod(): Operation not permitted | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>01-31 15:46:58 | 2 | chmod(): Operation not permitted | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-31 15:46:58 | 2 | chmod(): Operation not permitted | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-31 15:46:58 | 2 | chmod(): Operation not permitted | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-31 15:46:58 | 2 | chmod(): Operation not permitted | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>01-31 15:47:04 | 2 | chmod(): Operation not permitted | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-31 15:47:04 | 2 | chmod(): Operation not permitted | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-31 15:47:04 | 2 | chmod(): Operation not permitted | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-31 15:47:04 | 2 | chmod(): Operation not permitted | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>01-31 15:56:07 | 2 | chmod(): Operation not permitted | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-31 15:56:35 | 2 | chmod(): Operation not permitted | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-31 15:57:35 | 2 | chmod(): Operation not permitted | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-31 16:01:47 | 2 | chmod(): Operation not permitted | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-31 16:05:15 | 2 | chmod(): Operation not permitted | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-31 16:05:32 | 2 | chmod(): Operation not permitted | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-31 16:05:47 | 2 | chmod(): Operation not permitted | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-31 16:06:15 | 2 | chmod(): Operation not permitted | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-31 16:07:16 | 2 | chmod(): Operation not permitted | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-31 16:07:51 | 2 | chmod(): Operation not permitted | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>01-31 16:08:05 | 2 | chmod(): Operation not permitted | phpcms/modules/content/classes/html.class.php | 364
