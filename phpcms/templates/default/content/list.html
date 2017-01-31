@@ -10,7 +10,7 @@
     {pc:content action="lists" catid="$catid" num="17" order="inputtime DESC" page="$page"}
     <ul>
         {loop $data $r}
-        <li><a  class="list-tc" href="{$r[url]}" ><span>{$r[title]}</span></a>
+        <li><a  class="list-tc" href="{$r[url]}" ><img src="{IMG_PATH}dian.svg" alt="icon" style="margin-right: 10px;" width="12px"><span>{$r[title]}</span></a>
         <span class="list-tt">{date('Y-m-d',$r[inputtime])}</span>
         </li>
         {/loop}

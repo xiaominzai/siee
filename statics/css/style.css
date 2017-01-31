@@ -45,7 +45,7 @@ q:before, q:after { content: ''; }
 
 /* 重置表单元素 */
 legend { color: #000; } /* for ie6 */
-fieldset, img { border: none; } /* img 搭车：让链接里的 img 无边框 */
+fieldset, img { border: none; border-radius: 5px;} /* img 搭车：让链接里的 img 无边框 */
 /* 注：optgroup 无法扶正 */
 button, input, select, textarea {
     font-size: 100%; /* 使得表单元素在 ie 下能继承字体大小 */
@@ -168,6 +168,7 @@ hr {
 	width: 100%;
 	background: #f97303;
 	position:relative;
+	border-radius: 5px;
 }
 #nav img{
 	position:absolute;
@@ -187,7 +188,7 @@ hr {
 	font-family: 黑体;
 	letter-spacing:1px;
 	margin-left: 30px;
-
+	line-height: 46px;
 }
 .ban span{
 	font-family: "微软雅黑";
@@ -500,11 +501,11 @@ hr {
 	height: 35px;
 	width: 903px;
 	line-height: 35px;
-	background: #fff;
 	float: left;
 	margin-top: 8px;
 	border-bottom: 1px solid #dcdcdc;
 	padding-left: 100px;
+	padding-bottom: 20px;
 }
 #bottom-list img{
 	float: left;
@@ -818,10 +819,24 @@ a.first{border:#ccc 1px solid;padding:2px 5px;color:#ccc;margin:0 2px 0 0;}
 	padding-top: 38px;
 }
 #sousuo-text{
-	float: left;height: 38px;width: 215px;font-size: 15px;border: none;margin: 1px 0 0 1px;
+	float: left;
+	height: 40px;
+	width: 208px;
+	font-size: 15px;
+	border: none;
+	border-radius: 5px 0 0 5px;
+	padding-left: 8px;
+	line-height: 18px;
 }
 #sousuo-button{
-	border:none;float: left;height: 30px;width: 30px;background: url(../images/sousuo1.jpg) no-repeat;margin:3px 0 0 0;outline:none;cursor:pointer;
+	border:none;
+	float: left;height: 30px;
+	width: 30px;
+	background: url(../images/sousuo.svg) no-repeat;
+	margin:3px 0 0 0;
+	outline:none;
+	cursor:pointer;
+	background-size: 30px;
 }
 .dian{
 	height: 12px;width:12px;float: left;margin-top: 10px;margin-left: 30px;
@@ -831,4 +846,8 @@ a.first{border:#ccc 1px solid;padding:2px 5px;color:#ccc;margin:0 2px 0 0;}
 	height: 40px;
 	width: 250px;
 	border-radius: 7px;
+	float: right;
+	background-color: #fff;
 }
+body{
+	background:url(../images/bc.png);

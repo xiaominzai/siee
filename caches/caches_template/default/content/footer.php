@@ -1,6 +1,6 @@
 <?php defined('IN_PHPCMS') or exit('No permission resources.'); ?>				<div id="bottom-list">
-				<img src="<?php echo IMG_PATH;?>tubiao5.jpg"><span>二级学院:</span>
-				<?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"link\" data=\"op=link&tag_md5=709bd381183fd6b73714938e35657259&action=type_list&typeid=53&siteid=%24siteid&order=listorder+DESC&num=10&return=dat\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">修改</a>";}$link_tag = pc_base::load_app_class("link_tag", "link");if (method_exists($link_tag, 'type_list')) {$dat = $link_tag->type_list(array('typeid'=>'53','siteid'=>$siteid,'order'=>'listorder DESC','limit'=>'10',));}?>
+				<img src="<?php echo IMG_PATH;?>tubiao5.svg" width="28"><span>二级学院:</span>
+				<?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"link\" data=\"op=link&tag_md5=709bd381183fd6b73714938e35657259&action=type_list&typeid=53&siteid=%24siteid&order=listorder+DESC&num=10&return=dat\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">编辑</a>";}$link_tag = pc_base::load_app_class("link_tag", "link");if (method_exists($link_tag, 'type_list')) {$dat = $link_tag->type_list(array('typeid'=>'53','siteid'=>$siteid,'order'=>'listorder DESC','limit'=>'10',));}?>
                  <select class="select" onchange="top.location.href = this.options[this.selectedIndex].value;" name="select1" target=_blank>
 			          <option selected="selected" value="">--二级学院--</option>
 			         
@@ -10,9 +10,9 @@
 			       </select>
 			    <?php if(defined('IN_ADMIN') && !defined('HTML')) {echo '</div>';}?>
 
-					<img src="<?php echo IMG_PATH;?>tubiao5.jpg" style="margin-left:100px;"><span>职能部门:</span>
+					<img src="<?php echo IMG_PATH;?>tubiao5.svg" width="28" style="margin-left:100px;"><span>职能部门:</span>
 
-				<?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"link\" data=\"op=link&tag_md5=391e1c4833be141990c141521da30748&action=type_list&typeid=54&siteid=%24siteid&order=listorder+DESC&num=10&return=dat\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">修改</a>";}$link_tag = pc_base::load_app_class("link_tag", "link");if (method_exists($link_tag, 'type_list')) {$dat = $link_tag->type_list(array('typeid'=>'54','siteid'=>$siteid,'order'=>'listorder DESC','limit'=>'10',));}?>
+				<?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"link\" data=\"op=link&tag_md5=391e1c4833be141990c141521da30748&action=type_list&typeid=54&siteid=%24siteid&order=listorder+DESC&num=10&return=dat\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">编辑</a>";}$link_tag = pc_base::load_app_class("link_tag", "link");if (method_exists($link_tag, 'type_list')) {$dat = $link_tag->type_list(array('typeid'=>'54','siteid'=>$siteid,'order'=>'listorder DESC','limit'=>'10',));}?>
                  <select class="select" onchange="top.location.href = this.options[this.selectedIndex].value;" name="select1" target=_blank>
 			          <option selected="selected" value="">--职能部门--</option>
 			         
@@ -23,9 +23,9 @@
 			       </select>
 			       <?php if(defined('IN_ADMIN') && !defined('HTML')) {echo '</div>';}?>
 
-			       <img src="<?php echo IMG_PATH;?>tubiao5.jpg" style="margin-left:100px"><span>常用链接:</span>
+			       <img src="<?php echo IMG_PATH;?>tubiao5.svg" width="28" style="margin-left:100px"><span>常用链接:</span>
 
-					<?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"link\" data=\"op=link&tag_md5=a9619a698b2cb24c21573755ba7b6511&action=type_list&typeid=55&siteid=%24siteid&order=listorder+DESC&num=10&return=dat\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">修改</a>";}$link_tag = pc_base::load_app_class("link_tag", "link");if (method_exists($link_tag, 'type_list')) {$dat = $link_tag->type_list(array('typeid'=>'55','siteid'=>$siteid,'order'=>'listorder DESC','limit'=>'10',));}?>
+					<?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"link\" data=\"op=link&tag_md5=a9619a698b2cb24c21573755ba7b6511&action=type_list&typeid=55&siteid=%24siteid&order=listorder+DESC&num=10&return=dat\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">编辑</a>";}$link_tag = pc_base::load_app_class("link_tag", "link");if (method_exists($link_tag, 'type_list')) {$dat = $link_tag->type_list(array('typeid'=>'55','siteid'=>$siteid,'order'=>'listorder DESC','limit'=>'10',));}?>
 		            <select class="select" onchange="location.href = this.options[this.selectedIndex].value;" name="select2">
 					          <option selected="selected" value="">--友情链接--</option>
 					          <?php $n=1;if(is_array($dat)) foreach($dat AS $v) { ?>
