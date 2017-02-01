@@ -24,7 +24,7 @@
                     <div class="lisdd-header">
                         <img src="<?php echo IMG_PATH;?>tubiao3.svg" width="38">
                         <span class="con-nav-font">双创动态</span>
-                        <a class="more" href="#"><img src="<?php echo IMG_PATH;?>more.jpg"></a>
+                        <a class="more" href="#"><span>more ></span></a>
 
                     </div>
                     <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"content\" data=\"op=content&tag_md5=64cfae086a92843427364505b65e3e76&action=lists&catid=11&num=6&order=inputtime+DESC\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">修改</a>";}$content_tag = pc_base::load_app_class("content_tag", "content");if (method_exists($content_tag, 'lists')) {$data = $content_tag->lists(array('catid'=>'11','order'=>'inputtime DESC','limit'=>'6',));}?>
@@ -43,7 +43,7 @@
                     <div class="lisdd-header">
                         <img src="<?php echo IMG_PATH;?>tubiao2.svg" width="38"/>
                         <span class="con-nav-font">通知公告 </span>
-                        <a class="more" href="#"><img src="<?php echo IMG_PATH;?>more.jpg"></a>
+                        <a class="more" href="#"><span>more ></span></a>
                     </div>
                     <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"content\" data=\"op=content&tag_md5=687443b5112bba4cb65061ce376a6798&action=lists&catid=10&num=6&order=inputtime+DESC\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">修改</a>";}$content_tag = pc_base::load_app_class("content_tag", "content");if (method_exists($content_tag, 'lists')) {$data = $content_tag->lists(array('catid'=>'10','order'=>'inputtime DESC','limit'=>'6',));}?>
                     <ul class="listdd-down">
@@ -60,9 +60,9 @@
 
                 <div class="list-dd" id="baoming">
                     <div class="lisdd-header">
-                        <img src="<?php echo IMG_PATH;?>tubiao6.svg" width="42" />
+                        <img src="<?php echo IMG_PATH;?>tubiao6.svg" width="38" />
                         <span class="con-nav-font">报名入口 </span>
-                        <a class="more" href="#"><img src="<?php echo IMG_PATH;?>more.jpg"></a>
+                        <a class="more" href="#">more ></a>
                     </div>
                     <div class="listdd-down">
                         <div  id="sanjiao"/></div>
@@ -83,9 +83,9 @@
                 </div>
                 <div class="list-dd" id="zhengce">
                     <div class="lisdd-header">
-                        <img src="<?php echo IMG_PATH;?>tubiao4.svg" width="43" />
+                        <img src="<?php echo IMG_PATH;?>tubiao4.svg" width="38" />
                         <span class="con-nav-font">政策服务 </span>
-                        <a class="more" href="#"><img src="<?php echo IMG_PATH;?>more.jpg"></a>
+                        <a class="more" href="#"><span>more ></span></a>
                     </div>
                     <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"content\" data=\"op=content&tag_md5=33f7f61cabec63508058be2ece9ecc10&action=lists&catid=15&num=6&order=inputtime+DESC\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">修改</a>";}$content_tag = pc_base::load_app_class("content_tag", "content");if (method_exists($content_tag, 'lists')) {$data = $content_tag->lists(array('catid'=>'15','order'=>'inputtime DESC','limit'=>'6',));}?>
                     <ul class="listdd-down">
