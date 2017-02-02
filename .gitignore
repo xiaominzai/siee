@@ -1,2 +1,24 @@
-caches/configs/database.php
 caches/error_log.php
+caches/configs/database.php
+将删除 .idea/
+将删除 caches/caches_scan/
+将删除 caches/caches_template/block/
+将删除 caches/caches_tpl_data/
+将删除 caches/poster_js/
+将删除 caches/sessions/
+将删除 caches/vote_js/
+将删除 html/
+将删除 phpcms/modules/attachment/classes/
+将删除 phpcms/modules/formguide/functions/
+将删除 phpcms/modules/message/functions/
+将删除 phpcms/modules/upgrade/install/templates/
+将删除 phpcms/modules/vote/functions/
+将删除 phpsso_server/caches/commons/
+将删除 phpsso_server/caches/settings/
+将删除 phpsso_server/phpcms/languages/en-us/
+将删除 phpsso_server/uploadfile/
+将删除 .idea/copyright/
+将删除 .idea/misc.xml
+将删除 .idea/modules.xml
+将删除 .idea/siee.iml
+将删除 .idea/workspace.xml
