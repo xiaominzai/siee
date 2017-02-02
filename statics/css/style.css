@@ -16,7 +16,10 @@ button, input, select, textarea { /* for ie */
     /*font: 12px/1 Tahoma, Helvetica, Arial, "宋体", sans-serif;*/
     font: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif; /* 用 ascii 字符表示，使得在任何编码下都无问题 */
 }
-
+.clearfix{
+	overflow: hidden;
+	_height:1%;
+}
 h1 { font-size: 18px; /* 18px / 12px = 1.5 */ }
 h2 { font-size: 16px; }
 h3 { font-size: 14px; }
@@ -180,7 +183,9 @@ hr {
 	height:27px;
 	background-color:#ff9932;
 }
-
+.li_bottom{
+	border-bottom: none;
+}
 
 
 .ban{
@@ -263,21 +268,14 @@ hr {
 .nav li a:hover{
 	background: #feaf1e;
 }
-.nav_div a{
-	height: 27px;
-	width: 80px;
-	line-height: 27px;
-	text-align: center;
-	float: left;
-	background: #ff9932;
-	border-bottom: 1px solid #fff;
-	font-size: 13px;
-	color: #fff;
-	font-weight: bold;
-}
 .nav2 li a:hover{
 	background: #feaf1e;
 }
+
+.li_bottom{
+	border-bottom: none !important;
+}
+
 /*导航栏end*/
 /*content begin*/
 #content{

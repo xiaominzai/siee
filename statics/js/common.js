@@ -30,6 +30,7 @@ $(document).ready(function(e) {
 	}); 
 	$('#teacher').hover(function() { 
 		$(this).find('#nav2').css('display', 'block');
+		$("#li_bottom").css("border-bottom","1px solid #fff!important");
 		}, function() { 
 		$(this).find('#nav2').css('display', 'none');
 	}); 
