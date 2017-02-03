@@ -31,7 +31,12 @@
 <body onload="detectBrowser()">
  <div id="detectBrowser" class="center" style="display: none;">您的浏览器版本过低，为了您更好的体验，请更换浏览器</div>
     <div id="main">
-        <img src="<?php echo IMG_PATH;?>erweima.jpg" id="imgfloat">
+        <div id="imgfloat">
+            <img src="<?php echo IMG_PATH;?>index-icon.jpg" width="96px" alt="" >
+            <div style="font-weight: bold;margin-top: 5px;text-align: center;">
+                华广双创公众号
+            </div>
+        </div>
         <div id="header">
             <div class="header-up">
                 <img src="<?php echo IMG_PATH;?>headerup.svg"  width="601" height="92" />
