@@ -11,6 +11,15 @@
     
     <link rel="stylesheet" href="<?php echo CSS_PATH;?>min.css">
 
+    <!--iealter-->
+    <script src="<?php echo JS_PATH;?>iealert.js"></script>
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>iealter/style.css">
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("body").iealert();
+        });
+    </script>
+
     <script type="text/javascript">
 
             function detectBrowser()
