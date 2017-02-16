@@ -1,86 +1,106 @@
 /*xiaomin*/
 #list-header a{
-	color: white;
+    color :white;
 }
+
 #list-header{
-	margin-bottom: 5px;
-	width: 713px;
+    margin-bottom :5px;
+    width         :713px;
 }
+
 .listdd-c{
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
+    white-space   :nowrap;
+    overflow      :hidden;
+    text-overflow :ellipsis;
 }
+
 .baoming-banner{
-	text-align: center;
-	font-size: 35px;
-	font-weight: bold;
+    text-align  :center;
+    font-size   :35px;
+    font-weight :bold;
 }
+
 .listdd-t{
-	width:92px;
-	font-size: 18px;
+    width     :92px;
+    font-size :18px;
 }
+
 .list-c{
-	width: 519px;
+    width :519px;
 }
+
 .list-tc{
-	width: 585px;	
+    width :585px;
 }
+
 .list-tt{
-	width: 90px;
+    width :90px;
 }
+
 .left-ban{
-	font-weight: bold;
+    font-weight :bold;
 }
+
 #syb{
-	margin-left: 27px;
+    margin-left :27px;
 }
+
 /*for box-shadow*/
 .list-dd{
-	box-shadow: 0px 2px 10px #888888;
-	border: none;
-	margin-left: 5px
+    box-shadow  :0px 2px 10px #888;
+    border      :none;
+    margin-left :5px
 }
+
 .lisdd-header{
-	border: none;
-	box-shadow: 0px 0px 3px #888;
-	margin-bottom: 3px;
+    border        :none;
+    box-shadow    :0px 0px 3px #888;
+    margin-bottom :3px;
 }
+
 #baoming{
-	box-shadow: 0px 0px 7px #888;
-	border: none;
+    box-shadow :0px 0px 7px #888;
+    border     :none;
 }
+
 #sybban{
-	border: none;
-	box-shadow: 0px 0px 7px #888;
+    border     :none;
+    box-shadow :0px 0px 7px #888;
 }
+
 #baoming-header{
-	box-shadow: 0 0 3px #888;
-	margin-bottom: 6px;
+    box-shadow    :0 0 3px #888;
+    margin-bottom :6px;
 }
+
 #sybban-header{
-	box-shadow: 0 0 3px #888;
-	border: none;
+    box-shadow :0 0 3px #888;
+    border     :none;
 }
 
 /*list boxshow*/
 #list-right{
-	box-shadow: 0 0 5px #888;
+    box-shadow :0 0 5px #888;
 }
+
 /*content boxshow*/
 #article-right{
-	box-shadow: 0 0 5px #888;
+    box-shadow :0 0 5px #888;
 }
+
 .listdd-t{
-	width:95px;
-	margin-left: 0;
+    width       :95px;
+    margin-left :0;
 }
+
 #tongzhi{
-	margin-left: 20px;
+    margin-left :20px;
 }
+
 #zhengce{
-	margin-left: 20px;
+    margin-left :20px;
 }
+
 .pagination{
-	text-align:center;
+    text-align :center;
 }
