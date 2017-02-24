@@ -22,3 +22,4 @@ caches/configs/database.php
 将删除 .idea/modules.xml
 将删除 .idea/siee.iml
 将删除 .idea/workspace.xml
+将删除 caches/caches_template/
