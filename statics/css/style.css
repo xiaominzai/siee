@@ -151,7 +151,10 @@ hr{
     width    :100%;
     position :relative;
 }
-
+.header-down{
+    margin-top : 5px;
+}
+}
 #headeright{
     position :absolute;
     top      :0;
