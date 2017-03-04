@@ -3,10 +3,10 @@
     <!-- 轮播图部分 -->
      <div class="header-down">
             <div class="banner" id="b04">
-                {pc:content  action="position" posid="1"  order="listorder DESC" thumb="1" num="5"}
+                {pc:content action="lists" catid="16" num="5" order="inputtime DESC"}
                 <ul>
                     {loop $data $v}
-                        <li><img src="{$v[thumb]}" alt="" width="1003px" height="325px" ></li>
+                    <li><img src="{thumb($v[thumb],1003,325)}" alt="" width="1003px" height="325px" ></li>
                     {/loop}
                 </ul>
                 {/pc}
@@ -99,8 +99,7 @@
                     {/pc}
                 </div>
 
-                <!--图片新闻-->
-                {pc:content  action="position" posid="12" thumb="1" order="listorder DESC" num="8"}
+                {pc:content action="lists" catid="17" num="8" order="inputtime DESC"}
                 <ul id="con-img">
                     {loop $data $v}
                     <li><img class="con-imga" src="{thumb($v[thumb],246,174)}"></li>

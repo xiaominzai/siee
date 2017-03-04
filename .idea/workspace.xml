@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cd9a1a0e-b73d-47a2-b583-3fdc404a977f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caches/caches_commons/caches_data/category_content.cache.php" afterPath="$PROJECT_DIR$/caches/caches_commons/caches_data/category_content.cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caches/caches_commons/caches_data/category_content_1.cache.php" afterPath="$PROJECT_DIR$/caches/caches_commons/caches_data/category_content_1.cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caches/caches_commons/caches_data/category_items_1.cache.php" afterPath="$PROJECT_DIR$/caches/caches_commons/caches_data/category_items_1.cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpcms/templates/default/content/index.html" afterPath="$PROJECT_DIR$/phpcms/templates/default/content/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/css/style.css" afterPath="$PROJECT_DIR$/statics/css/style.css" />
     </list>
     <ignored path="siee.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,21 +49,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/statics/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            <state relative-caret-position="551">
+              <caret line="300" column="19" selection-start-line="300" selection-start-column="19" selection-end-line="300" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phpcms/templates/default/content/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            <state relative-caret-position="384">
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -84,8 +80,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/phpcms/templates/default/content/header.html" />
-        <option value="$PROJECT_DIR$/statics/css/style.css" />
         <option value="$PROJECT_DIR$/phpcms/templates/default/content/index.html" />
+        <option value="$PROJECT_DIR$/statics/css/style.css" />
       </list>
     </option>
   </component>
@@ -101,9 +97,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="52" />
+    <option name="y" value="24" />
     <option name="width" value="1855" />
-    <option name="height" value="1028" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -116,7 +112,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -129,13 +125,19 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../communi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="waiji&#9;null&#9;null&#10;外教概况&#9;null&#9;null" />
   </component>
   <component name="RunManager">
@@ -215,17 +217,15 @@
       <workItem from="1488280780059" duration="1247000" />
       <workItem from="1488285766701" duration="1445000" />
       <workItem from="1488329964092" duration="417000" />
-      <workItem from="1488330611335" duration="702000" />
-      <workItem from="1488333049945" duration="854000" />
-      <workItem from="1488352354314" duration="115000" />
+      <workItem from="1488330611335" duration="255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16457000" />
+    <option name="totallyTimeSpent" value="15041000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="52" width="1855" height="1028" extended-state="6" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25067386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -666,16 +666,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/statics/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="551">
+          <caret line="300" column="19" selection-start-line="300" selection-start-column="19" selection-end-line="300" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/phpcms/templates/default/content/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="384">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
           <folding />
         </state>
       </provider>
