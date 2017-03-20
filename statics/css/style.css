@@ -136,7 +136,7 @@ hr{
     top:300px;
     width:96px;
     height:112px;
-    background-color:#f97202;
+    background-color:#0066CC;
     padding:4px;
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
@@ -157,7 +157,7 @@ hr{
     margin-top:5px;
 }
 
-}
+
 #headeright{
     position:absolute;
     top:0;
@@ -227,7 +227,7 @@ hr{
     cursor:pointer;
 
     opacity:.4;
-    background:#6b3805;
+    background:#06C;
 
     -webkit-transition:background .5s, opacity .5s;
 
@@ -239,7 +239,7 @@ hr{
 
 #b04 .dots li.active{
 
-    background:#f97202;
+    background:#06c;
 
     opacity:1;
 
@@ -264,7 +264,7 @@ hr{
 #nav{
     height:47px;
     width:100%;
-    background:#f97303;
+    background:#0066CC;
     position:relative;
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
@@ -280,7 +280,7 @@ hr{
 .nav_div{
     width:80px;
     height:27px;
-    background-color:#ff9932;
+    background-color:#06C;
 }
 
 .li_bottom{
@@ -293,11 +293,11 @@ hr{
     padding-left:5px;
     padding-right:5px;
     float:left;
-    background:#f97303;
+    background:#0066CC;
     text-align:center;
     font-size:18px;
     color:#fff;
-    border-bottom:6px solid #f97303;
+    border-bottom:6px solid #0066CC;
     font-weight:700;
     letter-spacing:1px;
     margin-left:30px;
@@ -446,7 +446,7 @@ hr{
 
 .con-nav-font{
     font-size:23px;
-    color:#f97202;
+    color:#0066CC;
     margin-left:60px;
     font-weight:bolder;
     font-family:'微软雅黑';
@@ -533,7 +533,7 @@ hr{
 .con-imga{
     height:158px;
     width:230px;
-    border:8px solid #f97202;
+    border:8px solid #0066CC;
     margin-right:4px;
     float:left;
     z-index:10;
@@ -679,7 +679,7 @@ hr{
     position:absolute;
     top:15px;
     right:5px;
-    color:#ff4e00;
+    color:#0066CC;
     font-family:造字工房悦黑演示版常规体;
 }
 
@@ -744,7 +744,7 @@ hr{
     line-height:31px;
     float:left;
     padding-left:10px;
-    background:#f97303;
+    background:#06c;;
 }
 
 .article{
@@ -792,7 +792,7 @@ hr{
 .left-ban{
     height:73px;
     width:266px;
-    background:#f97303;
+    background:#0066CC;
     display:block;
     position:relative;
     text-align:center;
@@ -804,7 +804,7 @@ hr{
 }
 
 .left-ban:hover{
-    background:#ff9932;
+    background:#5550ff;
 }
 
 .left-ban img{
@@ -822,7 +822,7 @@ hr{
     line-height:31px;
     float:left;
     padding-left:10px;
-    background:#f97303;
+    background:#126acc;
     margin-left:-5px;
 
 }
@@ -1058,13 +1058,22 @@ a.first{
 }
 
 #try{
-    border:2px solid #f97303;
+    border:2px solid #0066CC;
     height:40px;
     width:250px;
     border-radius:7px;
     float:right;
     background-color:#fff;
 }
-
-body{
-    background:url(../images/bc.png);
+.baoming-a{
+    margin-left:30px;
+    margin-bottom:20px;
+    width:200px;
+    height:80px;
+    line-height:80px;
+    text-align:center;
+    font-size:25px;
+    color:#fff;
+    display:inline-block;
+    background:#06c;;
+}

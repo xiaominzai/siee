@@ -64,22 +64,16 @@
                         <span class="con-nav-font">报名入口 </span>
                         <a class="more" href="#">more ></a>
                     </div>
+
+                    {pc:content action="lists" catid="28" num="3" order="inputtime DESC"}
                     <div class="listdd-down">
-                        <div  id="sanjiao"/></div>
-                        <div id="baoming-top">
-                            <div class="baoming-top"><img src="{IMG_PATH}BMtubiao1.jpg" /></div>
-                            <a class="baoming-bottom" href="{APP_PATH}index.php?m=formguide&c=index&a=show&formid=15&siteid=1&pc_hash=GcGxwL">双创班报名</a>
-                        </div>
-                        <div id="baoming-left">
-                            <div class="baoming-top"><img src="{IMG_PATH}BMtubiao2.jpg" /></div>
-                            <a class="baoming-bottom" href="{APP_PATH}index.php?m=formguide&c=index&a=show&formid=14&siteid=1&pc_hash=GcGxwL">SYB报名</a>
-                        </div>
-                        <div id="baoming-right">
-                            <div class="baoming-top"><img src="{IMG_PATH}BMtubiao3.jpg" width="38" /></div>
-                            <a class="baoming-bottom" href="{APP_PATH}index.php?m=formguide&c=index&a=show&formid=13&siteid=1&pc_hash=GcGxwL">训练营报名</a>
-                            <!--<div class="baoming-sm">暂不公开</div>-->
-                        </div>
+                        {loop $data $v}
+                            <a href="{$v[url]}" class="baoming-a">{$v[title]}</a>
+                        {/loop}
+                        <a href="{APP_PATH}index.php?m=content&c=index&a=lists&catid=28" CLASS="baoming-a">更多项目</a>
                     </div>
+                    {/pc}
+
                 </div>
                 <div class="list-dd" id="zhengce">
                     <div class="lisdd-header">
@@ -99,7 +93,7 @@
                     {/pc}
                 </div>
 
-                {pc:content action="lists" catid="17" num="8" order="inputtime DESC"}
+                {pc:content action="lists" catid="27" num="8" order="inputtime DESC"}
                 <ul id="con-img">
                     {loop $data $v}
                     <li><img class="con-imga" src="{thumb($v[thumb],246,174)}"></li>

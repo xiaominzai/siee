@@ -10,10 +10,10 @@
 	.st4{font-family:'SimHei';}
 	.st5{font-size:19.9606px;}
 	.st6{fill:none;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;}
-	.st7{fill:#FF6600;}
+	.st7{fill:#0066cc;}
 	.st8{font-family:'RTWSYueGoTrial-Regular-GBpc-EUC-H';}
 	.st9{font-size:33.8303px;}
-	.st10{fill:none;stroke:#FF6600;stroke-width:0.25;stroke-miterlimit:10;}
+	.st10{fill:none;stroke:#0066cc;stroke-width:0.25;stroke-miterlimit:10;}
 	.st11{fill:none;}
 	.st12{font-size:22.655px;}
 </style>
