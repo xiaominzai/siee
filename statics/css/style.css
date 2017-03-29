@@ -687,14 +687,12 @@ hr{
     height:570px;
     width:266px;
     float:left;
-    background:#fff9b1;
 }
 
 #list-right{
     height:570px;
     width:718px;
     float:right;
-    background:#fff9b1;
     margin-left:10px;
     padding-left:5px;
 }
