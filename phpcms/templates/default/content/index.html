@@ -6,7 +6,12 @@
                 {pc:content action="lists" catid="16" num="5" order="inputtime DESC"}
                 <ul>
                     {loop $data $v}
-                    <li><img src="{thumb($v[thumb],1003,325)}" alt="" width="1003px" height="325px" ></li>
+                    <li>
+                        <a href="{$v['url']}"><img src="{thumb($v[thumb],1003,325)}" alt="" width="1003px" height="325px" ></a>
+                        <p class="banner-p">
+                            <span>{$v['title']}</span>
+                        </p>
+                    </li>
                     {/loop}
                 </ul>
                 {/pc}
@@ -27,7 +32,7 @@
                         <a class="more" href="#"><span>more ></span></a>
 
                     </div>
-                    {pc:content action="lists" catid="11" num="6" order="inputtime DESC"}
+                    {pc:content action="lists" catid="11" num="8" order="inputtime DESC"}
                     <ul class="listdd-down">
                         {loop $data $v}
                         <li>
@@ -45,7 +50,7 @@
                         <span class="con-nav-font">通知公告 </span>
                         <a class="more" href="#"><span>more ></span></a>
                     </div>
-                    {pc:content action="lists" catid="10" num="6" order="inputtime DESC"}
+                    {pc:content action="lists" catid="10" num="8" order="inputtime DESC"}
                     <ul class="listdd-down">
                         {loop $data $v}
                         <li>
@@ -66,7 +71,7 @@
                     </div>
 
                     {pc:content action="lists" catid="28" num="3" order="inputtime DESC"}
-                    <div class="listdd-down">
+                    <div class="listdd-down" style="padding-top: 34px;">
                         {loop $data $v}
                             <a href="{$v[url]}" class="baoming-a">{$v[title]}</a>
                         {/loop}
@@ -81,7 +86,7 @@
                         <span class="con-nav-font">政策服务 </span>
                         <a class="more" href="#"><span>more ></span></a>
                     </div>
-                    {pc:content action="lists" catid="12" num="6" order="inputtime DESC"}
+                    {pc:content action="lists" catid="12" num="8" order="inputtime DESC"}
                     <ul class="listdd-down">
                         {loop $data $v}
                         <li>
@@ -93,11 +98,5 @@
                     {/pc}
                 </div>
 
-                {pc:content action="lists" catid="27" num="8" order="inputtime DESC"}
-                <ul id="con-img">
-                    {loop $data $v}
-                    <li><img class="con-imga" src="{thumb($v[thumb],246,174)}"></li>
-                    {/loop}
-                </ul>
-                {/pc}
+
 {template "content","footer"}
