@@ -328,7 +328,7 @@ hr{
 
 .ban:hover{
     background:#fff;
-    color:#5146fa;
+    color:#1c97fb;
 }
 
 #nav1{
@@ -356,7 +356,7 @@ hr{
     height:84px;
     width:96px;
     position:absolute;
-    left:392px;
+    left:270px;
     top:47px;
     z-index:100;
     display:none;
@@ -407,11 +407,11 @@ hr{
 }
 
 #baoming{
-    margin-top:10px;
+    margin-top:20px;
 }
 
 #zhengce{
-    margin-top:10px;
+    margin-top:20px;
 }
 
 /*#baoming-header{
@@ -462,9 +462,9 @@ hr{
 }
 
 .con-nav-font{
-    font-size:23px;
+    font-size:20px;
     color:#1c97fb;
-    margin-left:60px;
+    margin-left:49px;
     font-weight:bolder;
     font-family:'微软雅黑';
     moz-user-select:-moz-none;
@@ -573,7 +573,7 @@ hr{
 }
 
 .list-dd{
-    height:308px;
+    height:298px;
     width:488px;
     background:#fff;
     border:4px solid #dcdcdc;
@@ -584,7 +584,7 @@ hr{
 }
 
 .lisdd-header{
-    height:44px;
+    height:40px;
     width:488px;
     /*	float: left;
     */
@@ -596,14 +596,13 @@ hr{
 
 .lisdd-header img{
     position:absolute;
-    top:3px;
+    top:6px;
     left:10px;
 }
 
 .listdd-down{
     height:206px;
     width:488px;
-    padding-top:6px;
     position:relative;
 }
 
@@ -1085,7 +1084,7 @@ a.first{
     background-color:#fff;
 }
 .baoming-a{
-    margin-left:30px;
+    margin-left:28px;
     margin-bottom:34px;
     width:200px;
     height:80px;
