@@ -55,52 +55,26 @@
             </div>
             <!-- 导航栏部分 -->
             <div id="nav">
-                <ul id="navli" class="clearfix">
-                    <li ><a  class="ban" id="one" href="{APP_PATH}">首页</a></li>
-                    <li ><a  class="ban" href="#">学院概括</a>
+                <ul id="navli">
+                    {pc:content action="category" catid="0" num="7" siteid="$siteid" order="listorder ASC"}
 
-                        {pc:content action="category" catid="9" num="5" siteid="$siteid" order="listorder ASC"}
-                        <ul id="nav1" class="nav">
-                            {loop $data $r}
+                    <li class="clearfix"><a  class="ban" id="one" href="{APP_PATH}">首页</a></li>
+                    {loop $data $r}<!--  一级栏目循环开始  -->
+                    <li ><a  class="ban" href="{$r[url]}">{$r[catname]}</a>
+                        {if $r[arrchildid]} <!--是否有子栏目-->
+                        <ul class="nav">
+                            {pc:content action="category" catid="$r[catid]" num="7" siteid="$siteid" order="listorder ASC" return="data2"}
+                            {loop $data2 $v}
                             <li>
-                                <div class="nav_div"><div class="nav_two"><a href="{$r[url]}">{$r[catname]}</a></div></div>
+                                <div class="nav_div"><div class="nav_two"><a href="{$v[url]}">{$v[catname]}</a></div></div>
                             </li>
                             {/loop}
+                            {/pc}
                         </ul>
-
-                        {/pc}
+                        {/if}
                     </li>
-
-                    <li ><a  class="ban" href="{APP_PATH}index.php?m=content&c=index&a=lists&catid=29">师资力量</a>
-
-                        {pc:content action="category" catid="29" num="5" siteid="$siteid" order="listorder ASC"}
-                        <ul id="nav3" class="nav">
-                            {loop $data $r}
-                            <li><div class="nav_div"><a href="{$r[url]}">{$r[catname]}</a></div></li>
-                            {/loop}
-                        </ul>
-                        {/pc}
-
-                    </li>
-                    <li ><a  class="ban" href="{APP_PATH}index.php?m=content&c=index&a=lists&catid=30">风采展示</a></li>
-                    <li ><a  class="ban" href="{APP_PATH}index.php?m=content&c=index&a=lists&catid=12">政策服务</a></li>
-                    <li ><a  class="ban" href="#">创业基地</a>
-
-                        {pc:content action="category" catid="13" num="5" siteid="$siteid" order="listorder ASC"}
-                        <ul id="nav4" class="nav">
-                            {loop $data $r}
-                            <li><div class="nav_div"><a href="{$r[url]}">{$r[catname]}</a></div></li>
-                            {/loop}
-                        </ul>
-                        {/pc}
-
-                    </li>
-                    <li>
-                        <a href="#" class="ban">学生组织</a>
-                    </li>
-                    <li>
-                        <a href="#" class="ban">下载专区</a>
-                    </li>
+                    {/loop}
 
                 </ul>
+                {/pc}
             </div>

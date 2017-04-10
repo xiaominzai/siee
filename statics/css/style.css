@@ -319,8 +319,14 @@ hr{
     letter-spacing:1px;
     margin-left:25px;
     line-height:46px;
+    position:relative;
 }
 
+/*测试*/
+#navli li{
+    display:inline-block;
+    position:relative;
+}
 .ban span{
     font-family:"微软雅黑";
     font-weight:100;
@@ -331,48 +337,17 @@ hr{
     color:#1c97fb;
 }
 
-#nav1{
+.nav{
     height:84px;
     width:96px;
     position:absolute;
-    left:153px;
+    left:34px;
     top:47px;
     z-index:100;
     display:none;
 }
 
-/*#nav2{
-	height: 53px;
-	width: 76px;
-	background: red;
-	position: absolute;
-	left:160px;
-	top:56px;
-	z-index: 100;
-	display: none;
-}*/
 
-#nav3{
-    height:84px;
-    width:96px;
-    position:absolute;
-    left:270px;
-    top:47px;
-    z-index:100;
-    display:none;
-
-}
-
-#nav4{
-    height:53px;
-    width:76px;
-    position:absolute;
-    left:633px;
-    top:47px;
-    z-index:100;
-    display:none;
-
-}
 
 .nav li a{
     width:65px;
@@ -384,6 +359,9 @@ hr{
     color:#fff;
     font-weight:bold;
     margin-left:8px;
+}
+.nav li:last-child a{
+    border-bottom:none!important;
 }
 
 .nav li a:hover{
