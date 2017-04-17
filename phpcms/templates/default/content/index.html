@@ -6,8 +6,8 @@
                 {pc:content action="lists" catid="16" num="5" order="inputtime DESC"}
                 <ul>
                     {loop $data $v}
-                    <li>
-                        <a href="{$v['url']}"><img src="{thumb($v[thumb],1003,325)}" alt="" width="1003px" height="325px" ></a>
+                    <li class="clearfix">
+                        <a href="{$v['url']}"><img src="{thumb($v[thumb],1003,325)}" alt="" width="100%" height="355px" ></a>
                         <p class="banner-p">
                             <span>{$v['title']}</span>
                         </p>
