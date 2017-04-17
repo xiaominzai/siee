@@ -120,7 +120,7 @@ hr{
 /*主要部分*/
 #main{
     height:1500px;
-    width:1003px;
+    width:1100px;
     margin:0 auto;
 }
 
@@ -198,7 +198,7 @@ hr{
 }
 
 #b04{
-    width:1003px;
+    width:1100px;
 }
 #b04 li{
     position:relative;
@@ -206,7 +206,7 @@ hr{
 .banner-p{
     position:absolute;
     left: 0;
-    top: 250px;
+    top: 280px;
     color: #fff;
     background: #1C97FB;
     height: 28px;
@@ -306,7 +306,7 @@ hr{
 
 .ban{
     height:41px;
-    width:85px;
+    width:94px;
     padding-left:5px;
     padding-right:5px;
     float:left;
@@ -341,7 +341,7 @@ hr{
     height:84px;
     width:96px;
     position:absolute;
-    left:34px;
+    left:39px;
     top:47px;
     z-index:100;
     display:none;
@@ -380,7 +380,7 @@ hr{
 /*content begin*/
 #content{
     height:1071px;
-    width:1003px;
+    width:100%;
     padding-top:14px;
 }
 
@@ -552,7 +552,7 @@ hr{
 
 .list-dd{
     height:298px;
-    width:488px;
+    width:48.8%;
     background:#fff;
     border:4px solid #dcdcdc;
     -webkit-border-radius:8px;
@@ -563,7 +563,7 @@ hr{
 
 .lisdd-header{
     height:40px;
-    width:488px;
+    width:100%;
     /*	float: left;
     */
     border-bottom:1px solid #dcdcdc;
@@ -579,8 +579,7 @@ hr{
 }
 
 .listdd-down{
-    height:206px;
-    width:488px;
+    width:100%;
     position:relative;
 }
 
@@ -614,7 +613,7 @@ hr{
     line-height:27px;
     color:#000;
     float:left;
-    margin-left:12px;
+    margin-left:45px;
     margin-top:4px;
 }
 
@@ -688,7 +687,7 @@ hr{
 
 #list-right{
     height:570px;
-    width:718px;
+    width:818px;
     float:right;
     margin-left:10px;
     padding-left:5px;
@@ -723,7 +722,7 @@ hr{
 
 #article-right{
     min-height:570px;
-    width:724px;
+    width:824px;
     float:right;
     margin-left:10px;
 }
@@ -733,7 +732,7 @@ hr{
 }
 
 .article-header{
-    width:714px;
+    width:814px;
     height:31px;
     line-height:31px;
     float:left;
@@ -743,7 +742,7 @@ hr{
 
 .article{
     min-height:425px;
-    width:724px;
+    width:100%;
     float:left;
 }
 
@@ -816,7 +815,7 @@ hr{
     line-height:31px;
     float:left;
     padding-left:10px;
-    background:#126acc;
+    background:#1C97FB;
     margin-left:-5px;
 
 }
@@ -1060,7 +1059,7 @@ a.first{
     background-color:#fff;
 }
 .baoming-a{
-    margin-left:28px;
+    margin-left:42px;
     margin-bottom:34px;
     width:200px;
     height:80px;
