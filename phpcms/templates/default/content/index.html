@@ -1,12 +1,17 @@
 {template "content","header"}
 <!--main-->
     <!-- 轮播图部分 -->
-    <!-- <div class="header-down">
+     <div class="header-down">
             <div class="banner" id="b04">
                 {pc:content action="lists" catid="16" num="5" order="inputtime DESC"}
                 <ul>
                     {loop $data $v}
-                    <li><img src="{thumb($v[thumb],1003,325)}" alt="" width="1003px" height="325px" ></li>
+                    <li class="clearfix">
+                        <a href="{$v['url']}"><img src="{thumb($v[thumb],1003,325)}" alt="" width="100%" height="355px" ></a>
+                        <p class="banner-p">
+                            <span>{$v['title']}</span>
+                        </p>
+                    </li>
                     {/loop}
                 </ul>
                 {/pc}
@@ -14,24 +19,24 @@
 
                 <a href="javascript:void(0);" class="unslider-arrow04 next"><img class="arrow" id="ar" src="{IMG_PATH}arrowr.png" alt="next" width="20" height="37"></a>
             </div>
-    </div> -->
+    </div>
     
-    <img src="{IMG_PATH}01.jpg" alt="" width="1003px" height="225px" >
+    <!--<img src="{IMG_PATH}01.jpg" alt="" width="1003px" height="225px" style="margin-top: 5px;">-->
         </div>
             <div id="content">
 
                 <div class="list-dd" id="sc-dongtai">
                     <div class="lisdd-header">
-                        <img src="{IMG_PATH}tubiao3.jpg">
+                        <img src="{IMG_PATH}tubiao3.svg" width="30">
                         <span class="con-nav-font">双创动态</span>
-                        <a class="more" href="#"><img src="{IMG_PATH}more.jpg"></a>
+                        <a class="more" href="{APP_PATH}index.php?m=content&c=index&a=lists&catid=11"><span>more ></span></a>
 
                     </div>
-                    {pc:content action="lists" catid="11" num="6" order="inputtime DESC"}
+                    {pc:content action="lists" catid="11" num="8" order="inputtime DESC"}
                     <ul class="listdd-down">
                         {loop $data $v}
                         <li>
-                            <img src="{IMG_PATH}dian.jpg" class="dian"><a class="listdd-c" href="{$v[url]}" ><span>{$v[title]}</span></a>
+                            <img src="{IMG_PATH}dian.svg" class="dian"><a class="listdd-c" href="{$v[url]}" ><span>{$v[title]}</span></a>
                             <span class="listdd-t">{date('Y-m-d',$v[inputtime])}</span>
                         </li>
                         {/loop}
@@ -41,15 +46,15 @@
                 </div>
                 <div class="list-dd" id="tongzhi">
                     <div class="lisdd-header">
-                        <img src="{IMG_PATH}tubiao2.jpg" />
+                        <img src="{IMG_PATH}tubiao2.svg" width="30"/>
                         <span class="con-nav-font">通知公告 </span>
-                        <a class="more" href="#"><img src="{IMG_PATH}more.jpg"></a>
+                        <a class="more" href="{APP_PATH}index.php?m=content&c=index&a=lists&catid=10"><span>more ></span></a>
                     </div>
-                    {pc:content action="lists" catid="10" num="6" order="inputtime DESC"}
+                    {pc:content action="lists" catid="10" num="8" order="inputtime DESC"}
                     <ul class="listdd-down">
                         {loop $data $v}
                         <li>
-                            <img src="{IMG_PATH}dian.jpg" class="dian"><a class="listdd-c" href="{$v[url]}" ><span>{$v[title]}</span></a>
+                            <img src="{IMG_PATH}dian.svg" class="dian"><a class="listdd-c" href="{$v[url]}" ><span>{$v[title]}</span></a>
                             <span class="listdd-t">{date('Y-m-d',$v[inputtime])}</span>
                         </li>
                         {/loop}
@@ -60,38 +65,32 @@
 
                 <div class="list-dd" id="baoming">
                     <div class="lisdd-header">
-                        <img src="{IMG_PATH}tubiao6.jpg" />
+                        <img src="{IMG_PATH}tubiao6.svg" width="30" />
                         <span class="con-nav-font">报名入口 </span>
-                        <a class="more" href="#"><img src="{IMG_PATH}more.jpg"></a>
+                        <a class="more" href="{APP_PATH}index.php?m=content&c=index&a=lists&catid=28">more ></a>
                     </div>
-                    <div class="listdd-down">
-                        <div  id="sanjiao"/></div>
-                        <div id="baoming-top">
-                            <div class="baoming-top"><img src="{IMG_PATH}BMtubiao1.jpg" /></div>
-                            <a class="baoming-bottom" href="{APP_PATH}index.php?m=formguide&c=index&a=show&formid=15&siteid=1&pc_hash=GcGxwL">双创班报名</a>
-                        </div>
-                        <div id="baoming-left">
-                            <div class="baoming-top"><img src="{IMG_PATH}BMtubiao2.jpg" /></div>
-                            <a class="baoming-bottom" href="{APP_PATH}index.php?m=formguide&c=index&a=show&formid=14&siteid=1&pc_hash=GcGxwL">syb报名</a>
-                        </div>
-                        <div id="baoming-right">
-                            <div class="baoming-top"><img src="{IMG_PATH}BMtubiao3.jpg" /></div>
-                            <a class="baoming-bottom" href="{APP_PATH}index.php?m=formguide&c=index&a=show&formid=13&siteid=1&pc_hash=GcGxwL">训练营报名</a>
-                            <div class="baoming-sm">暂不公开</div>
-                        </div>
+
+                    {pc:content action="lists" catid="28" num="3" order="inputtime DESC"}
+                    <div class="listdd-down" style="padding-top: 28px;">
+                        {loop $data $v}
+                            <a href="{$v[url]}" class="baoming-a">{$v[title]}</a>
+                        {/loop}
+                        <a href="{APP_PATH}index.php?m=content&c=index&a=lists&catid=28" CLASS="baoming-a">更多项目</a>
                     </div>
+                    {/pc}
+
                 </div>
                 <div class="list-dd" id="zhengce">
                     <div class="lisdd-header">
-                        <img src="{IMG_PATH}tubiao4.jpg" />
+                        <img src="{IMG_PATH}tubiao4.svg" width="30" />
                         <span class="con-nav-font">政策服务 </span>
-                        <a class="more" href="#"><img src="{IMG_PATH}more.jpg"></a>
+                        <a class="more" href="{APP_PATH}index.php?m=content&c=index&a=lists&catid=12"><span>more ></span></a>
                     </div>
-                    {pc:content action="lists" catid="15" num="6" order="inputtime DESC"}
+                    {pc:content action="lists" catid="12" num="8" order="inputtime DESC"}
                     <ul class="listdd-down">
                         {loop $data $v}
                         <li>
-                            <img src="{IMG_PATH}dian.jpg" class="dian"><a class="listdd-c" href="{$v[url]}" ><span>{$v[title]}</span></a>
+                            <img src="{IMG_PATH}dian.svg" class="dian"><a class="listdd-c" href="{$v[url]}" ><span>{$v[title]}</span></a>
                             <span class="listdd-t">{date('Y-m-d',$v[inputtime])}</span>
                         </li>
                         {/loop}
@@ -99,11 +98,5 @@
                     {/pc}
                 </div>
 
-                {pc:content action="lists" catid="17" num="8" order="inputtime DESC"}
-                <ul id="con-img">
-                    {loop $data $v}
-                    <li><img class="con-imga" src="{thumb($v[thumb],246,174)}"></li>
-                    {/loop}
-                </ul>
-                {/pc}
+
 {template "content","footer"}

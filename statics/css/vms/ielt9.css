@@ -1,4 +1,17 @@
-.clr{height:1%;}.wp{_height:1%;}
-address{*font-style:normal;}
-ul.col li,ul.cola li{*display:inline; overflow:hidden;}
+.clr{
+    height :1%;
+}
+
+.wp{
+    _height :1%;
+}
+
+address{
+    *font-style :normal;
+}
+
+ul.col li, ul.cola li{
+    *display :inline;
+    overflow :hidden;
+}
 

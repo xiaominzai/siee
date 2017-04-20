@@ -1,4 +1,4 @@
-<?php 
+<?php
 $filetype['dir'] = "文件夹";
 $filetype['gif'] = "GIF 图像";
 $filetype['htm'] = "HTML Document";

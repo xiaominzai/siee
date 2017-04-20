@@ -2,39 +2,44 @@
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <link rel="stylesheet" type="text/css" href="http://siee.chenyimin.cn/statics/css/style.css">
-    <script src="http://siee.chenyimin.cn/statics/js/jquery-1.11.1.min.js"></script>
-    <script src="http://siee.chenyimin.cn/statics/js/common.js" type="text/javascript"></script>
-    <script src="http://siee.chenyimin.cn/statics/js/unslider.min.js"></script>
-    <script src="http://siee.chenyimin.cn/statics/js/search_common.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://cxcy.gcu.edu.cn/statics/css/style.css">
+    <script src="http://cxcy.gcu.edu.cn/statics/js/jquery-1.11.1.min.js"></script>
+    <script src="http://cxcy.gcu.edu.cn/statics/js/common.js" type="text/javascript"></script>
+    <script src="http://cxcy.gcu.edu.cn/statics/js/unslider.min.js"></script>
+    <script src="http://cxcy.gcu.edu.cn/statics/js/search_common.js"></script>
+    <link rel="icon" href="http://cxcy.gcu.edu.cn/statics/images/huaguang.ico" type="image/x-icon"/>
     
-    <link rel="stylesheet" href="http://siee.chenyimin.cn/statics/css/min.css">
+    <link rel="stylesheet" href="http://cxcy.gcu.edu.cn/statics/css/min.css">
 
+    <!--iealter-->
+    <script src="http://cxcy.gcu.edu.cn/statics/js/iealert.js"></script>
+    <link rel="stylesheet" href="http://cxcy.gcu.edu.cn/statics/css/iealter/style.css">
     <script type="text/javascript">
-
-            function detectBrowser()
-            {
-            var browser=navigator.appName
-            var b_version=navigator.appVersion
-            var version=parseFloat(b_version)
-            
-            if ((browser=="Netscape"||browser=="Microsoft Internet Explorer")
-            && (version>=5))
-              {document.getElementById('detectBrowser').style.display="none"}
-            else
-              {document.getElementById('detectBrowser').style.display="block";}
-              }
+        //检查ie浏览器的问题
+        $(document).ready(function() {
+            var defaults = { 
+                support: "ie8",  // ie8 (ie6,ie7,ie8), ie7 (ie6,ie7), ie6 (ie6)
+                title: "\u4F60\u77E5\u9053\u4F60\u7684Internet Explorer\u662F\u8FC7\u65F6\u4E86\u5417?", // title text
+                text: ""
+            };
+            $("body").iealert(defaults);
+        });
     </script>
-    <title>Document</title>
+
+    <title>华南理工大学广州学院创新创业教育学院</title>
 </head>
 <body onload="detectBrowser()">
- <div id="detectBrowser" class="center" style="display: none;">您的浏览器版本过低，为了您更好的体验，请更换浏览器</div>
     <div id="main">
-        <img src="http://siee.chenyimin.cn/statics/images/erweima.jpg" id="imgfloat">
+        <div id="imgfloat">
+            <img src="http://cxcy.gcu.edu.cn/statics/images/index-icon.jpg" width="96px" alt="" >
+            <div style="font-weight: bold;margin-top: 5px;text-align: center;color: white;">
+                华广双创公众号
+            </div>
+        </div>
         <div id="header">
             <div class="header-up">
-                <img src="http://siee.chenyimin.cn/statics/images/headerup.jpg" />
-                <form id="sousuo" method="get" target="_blank" action="http://siee.chenyimin.cn/index.php">
+                <img src="http://cxcy.gcu.edu.cn/statics/images/headerup.svg"  width="601" height="92" />
+                <form id="sousuo" method="get" target="_blank" action="http://cxcy.gcu.edu.cn/index.php">
                     <div id="try">
                         
                         <input type="hidden" name="m" value="search"/>
@@ -42,7 +47,7 @@
                         <input type="hidden" name="a" value="init"/>
                         <input type="hidden" name="typeid" value="1" id="typeid"/>
                         <input type="hidden" name="siteid" value="1" id="siteid"/>
-                        <input type="text" name="q" id="sousuo-text" placeholder="关键字搜索">
+                        <input type="text" name="q" id="sousuo-text" placeholder="关键字搜索" style="outline:none">
                         <input type="submit" id="sousuo-button" value=""/>
                         
                     </div>
@@ -51,88 +56,160 @@
             <!-- 导航栏部分 -->
             <div id="nav">
                 <ul id="navli">
-                    <li ><a  class="ban" id="one" href="http://siee.chenyimin.cn/">首页<br><span>HOME</span></a></li>
-                    <li ><a  class="ban" href="#">学院概括<br><span>SUMMARY</span></a>
-                        <ul id="nav1" class="nav">
-                            <li><a href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=lists&catid=20">学院简介</a></li>
-                            <li><a href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=lists&catid=21">组织架构</a></li>
-                            <li id="teacher"><a href="#" >双创导师</a>
-                                    <ul id="nav2" class="nav2">
-                                        <li><a href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=lists&catid=19">校内导师</a></li>
-                                        <li><a href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=lists&catid=18">校外导师</a></li>
-                                    </ul>
+                    
+                    <li class="clearfix"><a  class="ban" id="one" href="http://cxcy.gcu.edu.cn/">首页</a></li>
+                    <!--  一级栏目循环开始  -->
+                    <li ><a  class="ban" href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=lists&catid=9">学院概况</a>
+                         <!--是否有子栏目-->
+                        <ul class="nav">
+                                                                                    <li>
+                                <div class="nav_div"><div class="nav_two"><a href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=lists&catid=20">学院简介</a></div></div>
                             </li>
-                        </ul>
-                    </li>
-                    <li ><a  class="ban" href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=lists&catid=10">通知公告<br><span>NOTICE</span></a></li>
-                    <li ><a  class="ban" href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=lists&catid=11">双创动态<br><span>DYNAMIC</span></a>
-                        <ul id="nav3" class="nav">
-                            <li><a href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=lists&catid=22">讲座沙龙</a></li>
-                            <li><a href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=lists&catid=23">创业竞赛</a></li>
-                            <li><a href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=lists&catid=24" >其他</a></li>
-                        </ul>
-                    </li>
-                    <li ><a  class="ban" href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=lists&catid=12">政策服务<br><span>SERVISE</span></a></li>
-                    <li ><a  class="ban" href="#">创业基地<br><span>BASE</span></a>
-                        <ul id="nav4" class="nav">
-                            <li><a href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=lists&catid=25">校外基地</a></li>
-                            <li><a href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=lists&catid=26">创业园区</a></li>
-                        </ul>
-
-                    </li>
-
+                                                        <li>
+                                <div class="nav_div"><div class="nav_two"><a href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=lists&catid=21">组织架构</a></div></div>
+                            </li>
+                                                                                </ul>
+                                            </li>
+                    <!--  一级栏目循环开始  -->
+                    <li ><a  class="ban" href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=lists&catid=29">师资力量</a>
+                         <!--是否有子栏目-->
+                        <ul class="nav">
+                                                                                    <li>
+                                <div class="nav_div"><div class="nav_two"><a href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=lists&catid=33">校内导师</a></div></div>
+                            </li>
+                                                        <li>
+                                <div class="nav_div"><div class="nav_two"><a href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=lists&catid=34">校外导师</a></div></div>
+                            </li>
+                                                                                </ul>
+                                            </li>
+                    <!--  一级栏目循环开始  -->
+                    <li ><a  class="ban" href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=lists&catid=30">风采展示</a>
+                         <!--是否有子栏目-->
+                        <ul class="nav">
+                                                                                    <li>
+                                <div class="nav_div"><div class="nav_two"><a href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=lists&catid=35">品牌项目</a></div></div>
+                            </li>
+                                                        <li>
+                                <div class="nav_div"><div class="nav_two"><a href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=lists&catid=36">创业故事</a></div></div>
+                            </li>
+                                                                                </ul>
+                                            </li>
+                    <!--  一级栏目循环开始  -->
+                    <li ><a  class="ban" href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=lists&catid=12">政策服务</a>
+                         <!--是否有子栏目-->
+                        <ul class="nav">
+                                                                                                            </ul>
+                                            </li>
+                    <!--  一级栏目循环开始  -->
+                    <li ><a  class="ban" href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=lists&catid=13">创业基地</a>
+                         <!--是否有子栏目-->
+                        <ul class="nav">
+                                                                                    <li>
+                                <div class="nav_div"><div class="nav_two"><a href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=lists&catid=25">校外基地</a></div></div>
+                            </li>
+                                                        <li>
+                                <div class="nav_div"><div class="nav_two"><a href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=lists&catid=26">校内基地</a></div></div>
+                            </li>
+                                                                                </ul>
+                                            </li>
+                    <!--  一级栏目循环开始  -->
+                    <li ><a  class="ban" href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=lists&catid=31">学生组织</a>
+                         <!--是否有子栏目-->
+                        <ul class="nav">
+                                                                                                            </ul>
+                                            </li>
+                    <!--  一级栏目循环开始  -->
+                    <li ><a  class="ban" href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=lists&catid=32">下载专区</a>
+                         <!--是否有子栏目-->
+                        <ul class="nav">
+                                                                                                            </ul>
+                                            </li>
+                    
                 </ul>
-            </div><!--main-->
+                            </div><!--main-->
     <!-- 轮播图部分 -->
-    <!-- <div class="header-down">
+     <div class="header-down">
             <div class="banner" id="b04">
                                 <ul>
-                                        <li><img src="http://localhost/siee/uploadfile/2016/1215/20161215043237195.jpg" alt="" width="1003px" height="325px" ></li>
-                                        <li><img src="http://localhost/siee/uploadfile/2016/1215/20161215043226786.jpg" alt="" width="1003px" height="325px" ></li>
-                                        <li><img src="http://localhost/siee/uploadfile/2016/1215/20161215043215992.jpg" alt="" width="1003px" height="325px" ></li>
-                                        <li><img src="http://localhost/siee/uploadfile/2016/1215/20161215043206805.jpg" alt="" width="1003px" height="325px" ></li>
-                                        <li><img src="http://localhost/siee/uploadfile/2016/1222/20161222050924592.jpg" alt="" width="1003px" height="325px" ></li>
+                                        <li class="clearfix">
+                        <a href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=show&catid=16&id=81"><img src="http://cxcy.gcu.edu.cn/uploadfile/2016/1215/20161215043237195.jpg" alt="" width="100%" height="355px" ></a>
+                        <p class="banner-p">
+                            <span>【新华网】华南理工大学广州学院学科优化升级取得突破</span>
+                        </p>
+                    </li>
+                                        <li class="clearfix">
+                        <a href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=show&catid=16&id=80"><img src="http://cxcy.gcu.edu.cn/uploadfile/2016/1215/20161215043226786.jpg" alt="" width="100%" height="355px" ></a>
+                        <p class="banner-p">
+                            <span>【网易】网络电影《一击》开机 新人班底演绎铁拳青春</span>
+                        </p>
+                    </li>
+                                        <li class="clearfix">
+                        <a href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=show&catid=16&id=79"><img src="http://cxcy.gcu.edu.cn/uploadfile/2016/1215/20161215043215992.jpg" alt="" width="100%" height="355px" ></a>
+                        <p class="banner-p">
+                            <span>【新快报】好牌子、好班子、好路子，成就好学子!</span>
+                        </p>
+                    </li>
+                                        <li class="clearfix">
+                        <a href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=show&catid=16&id=78"><img src="http://cxcy.gcu.edu.cn/uploadfile/2016/1215/20161215043206805.jpg" alt="" width="100%" height="355px" ></a>
+                        <p class="banner-p">
+                            <span>【特色重点学科】探应用型人才培养内涵，走牵手行业协同</span>
+                        </p>
+                    </li>
+                                        <li class="clearfix">
+                        <a href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=show&catid=16&id=77"><img src="http://cxcy.gcu.edu.cn/uploadfile/2016/1222/20161222050924592.jpg" alt="" width="100%" height="355px" ></a>
+                        <p class="banner-p">
+                            <span>校企产学研合作 打造光伏发电</span>
+                        </p>
+                    </li>
                                     </ul>
-                                <a href="javascript:void(0);" class="unslider-arrow04 prev"><img class="arrow" id="al" src="http://siee.chenyimin.cn/statics/images/arrowl.png" alt="prev" width="20" height="35"></a>
+                                <a href="javascript:void(0);" class="unslider-arrow04 prev"><img class="arrow" id="al" src="http://cxcy.gcu.edu.cn/statics/images/arrowl.png" alt="prev" width="20" height="35"></a>
 
-                <a href="javascript:void(0);" class="unslider-arrow04 next"><img class="arrow" id="ar" src="http://siee.chenyimin.cn/statics/images/arrowr.png" alt="next" width="20" height="37"></a>
+                <a href="javascript:void(0);" class="unslider-arrow04 next"><img class="arrow" id="ar" src="http://cxcy.gcu.edu.cn/statics/images/arrowr.png" alt="next" width="20" height="37"></a>
             </div>
-    </div> -->
+    </div>
     
-    <img src="http://siee.chenyimin.cn/statics/images/01.jpg" alt="" width="1003px" height="225px" >
+    <!--<img src="http://cxcy.gcu.edu.cn/statics/images/01.jpg" alt="" width="1003px" height="225px" style="margin-top: 5px;">-->
         </div>
             <div id="content">
 
                 <div class="list-dd" id="sc-dongtai">
                     <div class="lisdd-header">
-                        <img src="http://siee.chenyimin.cn/statics/images/tubiao3.jpg">
+                        <img src="http://cxcy.gcu.edu.cn/statics/images/tubiao3.svg" width="30">
                         <span class="con-nav-font">双创动态</span>
-                        <a class="more" href="#"><img src="http://siee.chenyimin.cn/statics/images/more.jpg"></a>
+                        <a class="more" href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=lists&catid=11"><span>more ></span></a>
 
                     </div>
                                         <ul class="listdd-down">
                                                 <li>
-                            <img src="http://siee.chenyimin.cn/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=show&catid=22&id=91" ><span>在增加试试看</span></a>
+                            <img src="http://cxcy.gcu.edu.cn/statics/images/dian.svg" class="dian"><a class="listdd-c" href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=show&catid=22&id=91" ><span>【新华网】华南理工大学广州学院学科优化升级取得突破</span></a>
                             <span class="listdd-t">2016-12-21</span>
                         </li>
                                                 <li>
-                            <img src="http://siee.chenyimin.cn/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=show&catid=22&id=90" ><span>在来一条？</span></a>
+                            <img src="http://cxcy.gcu.edu.cn/statics/images/dian.svg" class="dian"><a class="listdd-c" href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=show&catid=22&id=90" ><span>【网易】网络电影《一击》开机 新人班底演绎铁拳青春</span></a>
                             <span class="listdd-t">2016-12-15</span>
                         </li>
                                                 <li>
-                            <img src="http://siee.chenyimin.cn/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=show&catid=22&id=67" ><span>公告文章</span></a>
+                            <img src="http://cxcy.gcu.edu.cn/statics/images/dian.svg" class="dian"><a class="listdd-c" href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=show&catid=22&id=67" ><span>【人民网】“大学生”的时装周 为服装行业注入新生命力</span></a>
                             <span class="listdd-t">2016-12-15</span>
                         </li>
                                                 <li>
-                            <img src="http://siee.chenyimin.cn/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=show&catid=23&id=68" ><span>公告文章</span></a>
+                            <img src="http://cxcy.gcu.edu.cn/statics/images/dian.svg" class="dian"><a class="listdd-c" href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=show&catid=24&id=69" ><span>喜祝华广第二届后勤年终总结表彰大会圆满落幕</span></a>
                             <span class="listdd-t">2016-12-15</span>
                         </li>
                                                 <li>
-                            <img src="http://siee.chenyimin.cn/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=show&catid=24&id=69" ><span>公告文章</span></a>
+                            <img src="http://cxcy.gcu.edu.cn/statics/images/dian.svg" class="dian"><a class="listdd-c" href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=show&catid=22&id=55" ><span>【今日花都报】大学生创客：让所学知识创造出社会价值</span></a>
                             <span class="listdd-t">2016-12-15</span>
                         </li>
                                                 <li>
-                            <img src="http://siee.chenyimin.cn/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=show&catid=22&id=55" ><span>公告</span></a>
+                            <img src="http://cxcy.gcu.edu.cn/statics/images/dian.svg" class="dian"><a class="listdd-c" href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=show&catid=24&id=57" ><span>白色情人节，表白我校足球队！</span></a>
+                            <span class="listdd-t">2016-12-15</span>
+                        </li>
+                                                <li>
+                            <img src="http://cxcy.gcu.edu.cn/statics/images/dian.svg" class="dian"><a class="listdd-c" href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=show&catid=22&id=43" ><span>【新快报】好牌子、好班子、好路子，成就好学子!</span></a>
+                            <span class="listdd-t">2016-12-15</span>
+                        </li>
+                                                <li>
+                            <img src="http://cxcy.gcu.edu.cn/statics/images/dian.svg" class="dian"><a class="listdd-c" href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=show&catid=24&id=44" ><span>新闻</span></a>
                             <span class="listdd-t">2016-12-15</span>
                         </li>
                                             </ul>
@@ -140,33 +217,21 @@
                 </div>
                 <div class="list-dd" id="tongzhi">
                     <div class="lisdd-header">
-                        <img src="http://siee.chenyimin.cn/statics/images/tubiao2.jpg" />
+                        <img src="http://cxcy.gcu.edu.cn/statics/images/tubiao2.svg" width="30"/>
                         <span class="con-nav-font">通知公告 </span>
-                        <a class="more" href="#"><img src="http://siee.chenyimin.cn/statics/images/more.jpg"></a>
+                        <a class="more" href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=lists&catid=10"><span>more ></span></a>
                     </div>
                                         <ul class="listdd-down">
                                                 <li>
-                            <img src="http://siee.chenyimin.cn/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=show&catid=10&id=75" ><span>我看看新闻能有多长好长啊好长啊好长啊好长啊好长啊好长</span></a>
+                            <img src="http://cxcy.gcu.edu.cn/statics/images/dian.svg" class="dian"><a class="listdd-c" href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=show&catid=10&id=117" ><span>文科生怎么学数据新闻？数据工厂CEO黄志敏校友这样谈 </span></a>
+                            <span class="listdd-t">2017-04-10</span>
+                        </li>
+                                                <li>
+                            <img src="http://cxcy.gcu.edu.cn/statics/images/dian.svg" class="dian"><a class="listdd-c" href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=show&catid=10&id=28" ><span>【人民网】中英两校洽谈工科学分互认 提升国际化办学效果</span></a>
                             <span class="listdd-t">2016-12-15</span>
                         </li>
                                                 <li>
-                            <img src="http://siee.chenyimin.cn/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=show&catid=10&id=63" ><span>公告文章</span></a>
-                            <span class="listdd-t">2016-12-15</span>
-                        </li>
-                                                <li>
-                            <img src="http://siee.chenyimin.cn/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=show&catid=10&id=66" ><span>公告文章</span></a>
-                            <span class="listdd-t">2016-12-15</span>
-                        </li>
-                                                <li>
-                            <img src="http://siee.chenyimin.cn/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=show&catid=10&id=51" ><span>公告</span></a>
-                            <span class="listdd-t">2016-12-15</span>
-                        </li>
-                                                <li>
-                            <img src="http://siee.chenyimin.cn/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=show&catid=10&id=54" ><span>公告</span></a>
-                            <span class="listdd-t">2016-12-15</span>
-                        </li>
-                                                <li>
-                            <img src="http://siee.chenyimin.cn/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=show&catid=10&id=42" ><span>新闻</span></a>
+                            <img src="http://cxcy.gcu.edu.cn/statics/images/dian.svg" class="dian"><a class="listdd-c" href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=show&catid=10&id=16" ><span>访校友 搭平台 电气再添一家就业与实习基地</span></a>
                             <span class="listdd-t">2016-12-15</span>
                         </li>
                                             </ul>
@@ -175,73 +240,36 @@
 
                 <div class="list-dd" id="baoming">
                     <div class="lisdd-header">
-                        <img src="http://siee.chenyimin.cn/statics/images/tubiao6.jpg" />
+                        <img src="http://cxcy.gcu.edu.cn/statics/images/tubiao6.svg" width="30" />
                         <span class="con-nav-font">报名入口 </span>
-                        <a class="more" href="#"><img src="http://siee.chenyimin.cn/statics/images/more.jpg"></a>
+                        <a class="more" href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=lists&catid=28">more ></a>
                     </div>
-                    <div class="listdd-down">
-                        <div  id="sanjiao"/></div>
-                        <div id="baoming-top">
-                            <div class="baoming-top"><img src="http://siee.chenyimin.cn/statics/images/BMtubiao1.jpg" /></div>
-                            <a class="baoming-bottom" href="http://siee.chenyimin.cn/index.php?m=formguide&c=index&a=show&formid=15&siteid=1&pc_hash=GcGxwL">双创班报名</a>
-                        </div>
-                        <div id="baoming-left">
-                            <div class="baoming-top"><img src="http://siee.chenyimin.cn/statics/images/BMtubiao2.jpg" /></div>
-                            <a class="baoming-bottom" href="http://siee.chenyimin.cn/index.php?m=formguide&c=index&a=show&formid=14&siteid=1&pc_hash=GcGxwL">syb报名</a>
-                        </div>
-                        <div id="baoming-right">
-                            <div class="baoming-top"><img src="http://siee.chenyimin.cn/statics/images/BMtubiao3.jpg" /></div>
-                            <a class="baoming-bottom" href="http://siee.chenyimin.cn/index.php?m=formguide&c=index&a=show&formid=13&siteid=1&pc_hash=GcGxwL">训练营报名</a>
-                            <div class="baoming-sm">暂不公开</div>
-                        </div>
+
+                                        <div class="listdd-down" style="padding-top: 28px;">
+                                                    <a href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=show&catid=28&id=103" class="baoming-a">训练营报名</a>
+                                                    <a href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=show&catid=28&id=101" class="baoming-a">SYB报名</a>
+                                                    <a href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=show&catid=28&id=100" class="baoming-a">双创班报名</a>
+                                                <a href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=lists&catid=28" CLASS="baoming-a">更多项目</a>
                     </div>
+                    
                 </div>
                 <div class="list-dd" id="zhengce">
                     <div class="lisdd-header">
-                        <img src="http://siee.chenyimin.cn/statics/images/tubiao4.jpg" />
+                        <img src="http://cxcy.gcu.edu.cn/statics/images/tubiao4.svg" width="30" />
                         <span class="con-nav-font">政策服务 </span>
-                        <a class="more" href="#"><img src="http://siee.chenyimin.cn/statics/images/more.jpg"></a>
+                        <a class="more" href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=lists&catid=12"><span>more ></span></a>
                     </div>
                                         <ul class="listdd-down">
                                                 <li>
-                            <img src="http://siee.chenyimin.cn/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=show&catid=15&id=74" ><span>公告文章</span></a>
-                            <span class="listdd-t">2016-12-15</span>
-                        </li>
-                                                <li>
-                            <img src="http://siee.chenyimin.cn/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=show&catid=15&id=62" ><span>公告</span></a>
-                            <span class="listdd-t">2016-12-15</span>
-                        </li>
-                                                <li>
-                            <img src="http://siee.chenyimin.cn/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=show&catid=15&id=50" ><span>新闻</span></a>
-                            <span class="listdd-t">2016-12-15</span>
-                        </li>
-                                                <li>
-                            <img src="http://siee.chenyimin.cn/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=show&catid=15&id=36" ><span>这是一条严肃的新闻</span></a>
-                            <span class="listdd-t">2016-12-15</span>
-                        </li>
-                                                <li>
-                            <img src="http://siee.chenyimin.cn/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=show&catid=15&id=24" ><span>发布多条</span></a>
-                            <span class="listdd-t">2016-12-15</span>
-                        </li>
-                                                <li>
-                            <img src="http://siee.chenyimin.cn/statics/images/dian.jpg" class="dian"><a class="listdd-c" href="http://siee.chenyimin.cn/index.php?m=content&c=index&a=show&catid=15&id=12" ><span>校外导师</span></a>
-                            <span class="listdd-t">2016-12-15</span>
+                            <img src="http://cxcy.gcu.edu.cn/statics/images/dian.svg" class="dian"><a class="listdd-c" href="http://cxcy.gcu.edu.cn/index.php?m=content&c=index&a=show&catid=12&id=116" ><span>加速推进国际校区建设 华南理工召开筹备工作动员会 </span></a>
+                            <span class="listdd-t">2017-04-10</span>
                         </li>
                                             </ul>
                                     </div>
 
-                                <ul id="con-img">
-                                        <li><img class="con-imga" src="http://siee.chenyimin.cn/uploadfile/2017/0126/thumb_246_174_20170126122148164.jpg"></li>
-                                        <li><img class="con-imga" src="http://siee.chenyimin.cn/uploadfile/2017/0126/thumb_246_174_20170126122208793.jpg"></li>
-                                        <li><img class="con-imga" src="http://siee.chenyimin.cn/uploadfile/2017/0126/thumb_246_174_20170126122225428.jpg"></li>
-                                        <li><img class="con-imga" src="http://siee.chenyimin.cn/uploadfile/2017/0126/thumb_246_174_20170126122246530.jpg"></li>
-                                        <li><img class="con-imga" src="http://siee.chenyimin.cn/uploadfile/2017/0126/thumb_246_174_20170126122307176.jpg"></li>
-                                        <li><img class="con-imga" src="http://siee.chenyimin.cn/uploadfile/2017/0126/thumb_246_174_20170126122325769.jpg"></li>
-                                        <li><img class="con-imga" src="http://siee.chenyimin.cn/uploadfile/2017/0126/thumb_246_174_20170126122348108.jpg"></li>
-                                        <li><img class="con-imga" src="http://siee.chenyimin.cn/uploadfile/2017/0126/thumb_246_174_20170126122407490.jpg"></li>
-                                    </ul>
-                				<div id="bottom-list">
-				<img src="http://siee.chenyimin.cn/statics/images/tubiao5.jpg"><span>二级学院:</span>
+
+				<div id="bottom-list">
+				<img src="http://cxcy.gcu.edu.cn/statics/images/tubiao5.svg" width="28"><span>二级学院:</span>
 				                 <select class="select" onchange="top.location.href = this.options[this.selectedIndex].value;" name="select1" target=_blank>
 			          <option selected="selected" value="">--二级学院--</option>
 			         
@@ -249,7 +277,7 @@
 								          <option value="http://www.baidu.com">计算机学院</option>
 								       </select>
 			    
-					<img src="http://siee.chenyimin.cn/statics/images/tubiao5.jpg" style="margin-left:100px;"><span>职能部门:</span>
+					<img src="http://cxcy.gcu.edu.cn/statics/images/tubiao5.svg" width="28" style="margin-left:160px;"><span>职能部门:</span>
 
 				                 <select class="select" onchange="top.location.href = this.options[this.selectedIndex].value;" name="select1" target=_blank>
 			          <option selected="selected" value="">--职能部门--</option>
@@ -259,7 +287,7 @@
 						
 			       </select>
 			       
-			       <img src="http://siee.chenyimin.cn/statics/images/tubiao5.jpg" style="margin-left:100px"><span>常用链接:</span>
+			       <img src="http://cxcy.gcu.edu.cn/statics/images/tubiao5.svg" width="28" style="margin-left:180px"><span>常用链接:</span>
 
 							            <select class="select" onchange="location.href = this.options[this.selectedIndex].value;" name="select2">
 					          <option selected="selected" value="">--友情链接--</option>
@@ -272,6 +300,6 @@
 				</div>
 			</div>
 	</div>
-	<script language="JavaScript" src="http://siee.chenyimin.cn/api.php?op=count&id=&modelid="></script> 
+	<script language="JavaScript" src="http://cxcy.gcu.edu.cn/api.php?op=count&id=&modelid="></script> 
 </body>
 </html>

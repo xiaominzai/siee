@@ -1,20 +1,20 @@
 {template "content","header"}
 <div id="content">
-				{template "content","sideBar"}
-				<div id="article-right">
-					<div class="article-header">
-						<div class="crumbs"><a href="{APP_PATH}">首页</a><span> &gt; </span><a href="">{catpos($catid)}列表</a> </div>
-					</div>
-					<div class="article">
-						<div class="ar-t">{$title}</div>
-						<div class="ar-tt">发布日期：{$inputtime}<span>点击：<span id="hits"></span>次</span></div>
-						<div class="ar-c">
-							{if $allow_visitor==1}
-				{$content}
-				{/if}
-						</div>
-					</div>
-					
-				</div>
+	{template "content","sideBar"}
+	<div id="article-right">
+		<div class="article-header">
+			<div class="crumbs"><a href="{APP_PATH}">首页</a><span> &gt; </span><a href="">{catpos($catid)}列表</a> </div>
+		</div>
+		<div class="article">
+			<div class="ar-t">{$title}</div>
+			<div class="ar-tt">发布日期：{$inputtime}<span>点击：<span id="hits"></span>次</span></div>
+			<div class="ar-c">
+				{if $allow_visitor==1}
+	{$content}
+	{/if}
+			</div>
+		</div>
+		
+	</div>
 
 {template "content","footer"}
