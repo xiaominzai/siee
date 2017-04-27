@@ -741,6 +741,7 @@ hr{
 }
 
 .article{
+    word-wrap:break-word;
     min-height:425px;
     width:100%;
     float:left;
@@ -774,9 +775,9 @@ hr{
 
 .ar-c{
     min-height:349px;
-    width:554px;
+    width:90%;
     font-size:14px;
-    padding-left:25px;
+    padding:0 5%;
     line-height:20px;
     margin:10px auto 0 auto;
 }
@@ -1025,9 +1026,9 @@ a.first{
     width:208px;
     font-size:15px;
     border:none;
-    border-radius:5px 0 0 5px;
     padding-left:8px;
     line-height:18px;
+    border-bottom:1px #1C97FB solid;
 }
 
 #sousuo-button{
@@ -1051,7 +1052,6 @@ a.first{
 }
 
 #try{
-    border:2px solid #1c97fb;
     height:40px;
     width:250px;
     border-radius:7px;

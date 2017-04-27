@@ -58,7 +58,7 @@
                 <ul id="navli">
                     {pc:content action="category" catid="0" num="7" siteid="$siteid" order="listorder ASC"}
 
-                    <li class="clearfix"><a  class="ban" id="one" href="{APP_PATH}">首页</a></li>
+                    <li><a  class="ban" id="one" href="{APP_PATH}">首页</a></li>
                     {loop $data $r}<!--  一级栏目循环开始  -->
                     <li ><a  class="ban" href="{$r[url]}">{$r[catname]}</a>
                         {if $r[arrchildid]} <!--是否有子栏目-->
