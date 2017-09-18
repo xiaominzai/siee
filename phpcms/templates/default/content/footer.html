@@ -1,6 +1,6 @@
 				<div id="bottom-list">
-				<img src="{IMG_PATH}tubiao5.svg" width="28"><span>二级学院:</span>
-				{pc:link  action="type_list" typeid="53"  siteid="$siteid" order="listorder DESC" num="10" return="dat"}
+				<img src="{IMG_PATH}tubiao5.png" width="28"><span>二级学院:</span>
+				{pc:link  action="type_list" typeid="53"  siteid="$siteid" order="listorder DESC" num="20" return="dat"}
                  <select class="select" onchange="top.location.href = this.options[this.selectedIndex].value;" name="select1" target=_blank>
 			          <option selected="selected" value="">--二级学院--</option>
 			         
@@ -10,9 +10,9 @@
 			       </select>
 			    {/pc}
 
-					<img src="{IMG_PATH}tubiao5.svg" width="28" style="margin-left:160px;"><span>职能部门:</span>
+					<img src="{IMG_PATH}tubiao5.png" width="28" style="margin-left:160px;"><span>职能部门:</span>
 
-				{pc:link  action="type_list" typeid="54"  siteid="$siteid" order="listorder DESC" num="10" return="dat"}
+				{pc:link  action="type_list" typeid="54"  siteid="$siteid" order="listorder DESC" num="20" return="dat"}
                  <select class="select" onchange="top.location.href = this.options[this.selectedIndex].value;" name="select1" target=_blank>
 			          <option selected="selected" value="">--职能部门--</option>
 			         
@@ -23,9 +23,9 @@
 			       </select>
 			       {/pc}
 
-			       <img src="{IMG_PATH}tubiao5.svg" width="28" style="margin-left:180px"><span>常用链接:</span>
+			       <img src="{IMG_PATH}tubiao5.png" width="28" style="margin-left:180px"><span>常用链接:</span>
 
-					{pc:link  action="type_list" typeid="55"  siteid="$siteid" order="listorder DESC" num="10" return="dat"}
+					{pc:link  action="type_list" typeid="55"  siteid="$siteid" order="listorder DESC" num="20" return="dat"}
 		            <select class="select" onchange="location.href = this.options[this.selectedIndex].value;" name="select2">
 					          <option selected="selected" value="">--友情链接--</option>
 					          {loop $dat $v}

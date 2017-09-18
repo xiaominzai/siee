@@ -7,10 +7,10 @@
                 <ul>
                     {loop $data $v}
                     <li class="clearfix">
-                        <a href="{$v['url']}"><img src="{thumb($v[thumb],1003,325)}" alt="" width="100%" height="355px" ></a>
-                        <p class="banner-p">
-                            <span>{$v['title']}</span>
-                        </p>
+                        <a href="{$v['url']}"><img src="{thumb($v[thumb],1003,325)}" alt="" width="100%" height="260px" ></a>
+                        <!--<p class="banner-p">-->
+                            <!--<span>{$v['title']}</span>-->
+                        <!--</p>-->
                     </li>
                     {/loop}
                 </ul>
@@ -27,7 +27,7 @@
 
                 <div class="list-dd" id="sc-dongtai">
                     <div class="lisdd-header">
-                        <img src="{IMG_PATH}tubiao3.svg" width="30">
+                        <img src="{IMG_PATH}tubiao3.png" width="25">
                         <span class="con-nav-font">双创动态</span>
                         <a class="more" href="{APP_PATH}index.php?m=content&c=index&a=lists&catid=11"><span>more ></span></a>
 
@@ -36,7 +36,7 @@
                     <ul class="listdd-down">
                         {loop $data $v}
                         <li>
-                            <img src="{IMG_PATH}dian.svg" class="dian"><a class="listdd-c" href="{$v[url]}" ><span>{$v[title]}</span></a>
+                            <img src="{IMG_PATH}dian.png" class="dian"><a class="listdd-c" href="{$v[url]}" ><span>{$v[title]}</span></a>
                             <span class="listdd-t">{date('Y-m-d',$v[inputtime])}</span>
                         </li>
                         {/loop}
@@ -46,7 +46,7 @@
                 </div>
                 <div class="list-dd" id="tongzhi">
                     <div class="lisdd-header">
-                        <img src="{IMG_PATH}tubiao2.svg" width="30"/>
+                        <img src="{IMG_PATH}tubiao2.png" width="25"/>
                         <span class="con-nav-font">通知公告 </span>
                         <a class="more" href="{APP_PATH}index.php?m=content&c=index&a=lists&catid=10"><span>more ></span></a>
                     </div>
@@ -54,7 +54,7 @@
                     <ul class="listdd-down">
                         {loop $data $v}
                         <li>
-                            <img src="{IMG_PATH}dian.svg" class="dian"><a class="listdd-c" href="{$v[url]}" ><span>{$v[title]}</span></a>
+                            <img src="{IMG_PATH}dian.png" class="dian"><a class="listdd-c" href="{$v[url]}" ><span>{$v[title]}</span></a>
                             <span class="listdd-t">{date('Y-m-d',$v[inputtime])}</span>
                         </li>
                         {/loop}
@@ -65,7 +65,7 @@
 
                 <div class="list-dd" id="baoming">
                     <div class="lisdd-header">
-                        <img src="{IMG_PATH}tubiao6.svg" width="30" />
+                        <img src="{IMG_PATH}tubiao6.png" width="25" />
                         <span class="con-nav-font">报名入口 </span>
                         <a class="more" href="{APP_PATH}index.php?m=content&c=index&a=lists&catid=28">more ></a>
                     </div>
@@ -82,7 +82,7 @@
                 </div>
                 <div class="list-dd" id="zhengce">
                     <div class="lisdd-header">
-                        <img src="{IMG_PATH}tubiao4.svg" width="30" />
+                        <img src="{IMG_PATH}tubiao4.png" width="25" />
                         <span class="con-nav-font">政策服务 </span>
                         <a class="more" href="{APP_PATH}index.php?m=content&c=index&a=lists&catid=12"><span>more ></span></a>
                     </div>
@@ -90,7 +90,7 @@
                     <ul class="listdd-down">
                         {loop $data $v}
                         <li>
-                            <img src="{IMG_PATH}dian.svg" class="dian"><a class="listdd-c" href="{$v[url]}" ><span>{$v[title]}</span></a>
+                            <img src="{IMG_PATH}dian.png" class="dian"><a class="listdd-c" href="{$v[url]}" ><span>{$v[title]}</span></a>
                             <span class="listdd-t">{date('Y-m-d',$v[inputtime])}</span>
                         </li>
                         {/loop}
