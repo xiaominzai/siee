@@ -513,7 +513,7 @@ hr{
 
 #con-img{
     height:173px;
-    width:1000px;
+    width:100%;
     float:left;
     margin-top:13px;
     overflow:hidden;
@@ -525,11 +525,12 @@ hr{
 
 .con-imga{
     height:158px;
-    width:230px;
-    border:8px solid #1c97fb;
-    margin-right:4px;
+    width:251px;
+    /*border:8px solid #1c97fb;*/
+    /*margin-right:4px;*/
     float:left;
     z-index:10;
+    margin:8px;
 }
 
 
@@ -545,7 +546,15 @@ hr{
 #syb{
     margin-left:5px;
 }
+#actity{
+    width:100%;
+    margin-top:20px;
+    height:auto;
 
+}
+#lisdd-header{
+    background:#fff;
+}
 .list-dd{
     height:298px;
     width:48.8%;

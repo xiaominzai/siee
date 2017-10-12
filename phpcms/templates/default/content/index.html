@@ -83,7 +83,7 @@
                 <div class="list-dd" id="zhengce">
                     <div class="lisdd-header">
                         <img src="{IMG_PATH}tubiao4.png" width="25" />
-                        <span class="con-nav-font">政策服务 </span>
+                        <span class="con-nav-font">创业案例 </span>
                         <a class="more" href="{APP_PATH}index.php?m=content&c=index&a=lists&catid=12"><span>more ></span></a>
                     </div>
                     {pc:content action="lists" catid="12" num="8" order="inputtime DESC"}
@@ -97,6 +97,35 @@
                     </ul>
                     {/pc}
                 </div>
-
-
+                <!--<ul id="con-img">-->
+                    <!--<li><img class="con-imga"src="{IMG_PATH}02.jpg"></li>-->
+                    <!--<li><img class="con-imga"src="{IMG_PATH}02.jpg"></li>-->
+                    <!--<li><img class="con-imga"src="{IMG_PATH}02.jpg"></li>-->
+                    <!--<li><img class="con-imga"src="{IMG_PATH}02.jpg"></li>-->
+                    <!--<li><img class="con-imga"src="{IMG_PATH}01.jpg"></li>-->
+                    <!--<li><img class="con-imga"src="{IMG_PATH}01.jpg"></li>-->
+                    <!--<li><img class="con-imga"src="{IMG_PATH}01.jpg"></li>-->
+                    <!--<li><img class="con-imga"src="{IMG_PATH}01.jpg"></li>-->
+                <!--</ul>-->
+                <div class="list-dd" id="actity">
+                    <div class="lisdd-header" id="lisdd-header">
+                        <span class="con-nav-font" style="color: #1c97fb;margin-left: 10px;">双创风采 </span>
+                        <a class="more" href="{APP_PATH}index.php?m=content&c=index&a=lists&catid=12"><span style="color: #1c97fb;">more ></span></a>
+                    </div>
+                    {pc:content action="lists" catid="41" num="8" order="inputtime DESC"}
+                    <!--<ul class="listdd-down">-->
+                        <!--{loop $data $v}-->
+                        <!--<li>-->
+                            <!--<img src="{IMG_PATH}dian.png" class="dian"><a class="listdd-c" href="{$v[url]}" ><span>{$v[title]}</span></a>-->
+                            <!--<span class="listdd-t">{date('Y-m-d',$v[inputtime])}</span>-->
+                        <!--</li>-->
+                        <!--{/loop}-->
+                    <!--</ul>-->
+                    <ul id="con-img">
+                        {loop $data $v}
+                            <li><a href="{$v[url]}"><img class="con-imga" src="{thumb($v[thumb],251,158)}"></a></li>
+                        {/loop}
+                    </ul>
+                    {/pc}
+                </div>
 {template "content","footer"}
