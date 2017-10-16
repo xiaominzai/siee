@@ -17,6 +17,7 @@ $(document).ready(function (e) {
         data04[fn]();
 
     });
+
     $('#navli li').hover(function () {
         $(this).find('.nav').css('display', 'block');
     }, function () {

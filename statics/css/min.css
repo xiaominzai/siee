@@ -47,9 +47,8 @@
 
 /*for box-shadow*/
 .list-dd{
-    box-shadow  :0px 2px 10px #888;
+    box-shadow  :0 2px 10px #888;
     border      :none;
-    margin-left :5px
 }
 
 .lisdd-header{
@@ -59,7 +58,6 @@
 }
 
 #baoming{
-    box-shadow :0 0 7px #888;
     border     :none;
 }
 
@@ -92,13 +90,7 @@
     width       :95px;
 }
 
-#tongzhi{
-    margin-left :20px;
-}
 
-#zhengce{
-    margin-left :20px;
-}
 
 .pagination{
     text-align :center;
